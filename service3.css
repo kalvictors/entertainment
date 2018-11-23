@@ -1,0 +1,1763 @@
+
+
+@media(max-width: 411px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+   .wrapper{
+   
+    grid-auto-rows: 83px;
+    margin-left: 0px;
+    margin-right: 80px;
+   }
+
+   
+    .wrapper img{
+        height: 65px;
+        width: 100%;
+      
+    }
+
+    .box2{
+     padding-left: 80px;
+     padding-right: 100px;
+      height: 50px;
+      background-color: grey;
+  }
+
+  .box2 > div{
+      margin-left: 40px;
+      margin-right: 440px;
+      padding-left: 10px;
+  }
+    
+    .topper > div img{
+          height: 78px;
+          width: 60px;
+    }
+
+    
+    .cont{
+        grid-gap: 0%;
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+
+    .box1{
+        margin: 0%;
+    }
+
+    .synopsis{
+        font-size: 8.5px;
+        line-height: 17px;
+    }
+
+
+    .heading{
+        display: none;
+    }
+   
+    .onvd h3{
+      margin-left: 125px;
+    }
+
+    .onvd{
+      margin-left: 108px;
+      margin-right: 108px;
+      padding-left: 15px;
+    }
+
+    #defin{
+     font-size: 20px;
+      margin-left: 1px;
+      margin-right: 35px;
+      padding-left: 5px;
+    }
+
+    .intitle{
+        font-size: 20px;
+        float: left;
+        
+    }
+
+    .intype1{
+        display: none;
+        font-size: 2px;
+    }
+  
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+    
+    .indisplay{
+       
+       margin-right: 60%;
+   
+  }
+  
+  .indisplay > div{
+    display: none;
+  } 
+  
+
+  
+    .news > div video{
+      margin-left: -20px;
+    }
+
+    .news > div img{
+        margin-left: -20px;
+    }
+
+  .box3{
+      justify-content: center; 
+      
+  }
+
+  .box3 h4{
+      margin-left: 120px;
+      font-size: 20px;
+  }
+
+  .box3 p{
+     font-size: 17px;
+      margin-left: 100px;
+      margin-right: 120px;
+      padding-left: 15px;
+  }
+
+  
+  .box5 h3{
+     margin-left: 250px;
+  } 
+
+  .box5 p{
+      font-size: 20px;
+  }
+
+  /* .box4 p{
+     
+     margin-left: 110px;
+     margin-right: 120px;
+     padding-left: 15px;
+  } */
+
+  #lstp{
+      font-size: 20px;
+      margin-left: 100px;
+      margin-right: 110px;
+      padding-left: 15px;
+
+  }
+
+  #uptp{
+      font-size: 16px;
+      margin-left: 120px;
+      margin-right: 200px;
+      padding-left: 15px;
+
+  }
+
+  #dstp{
+      color: white;
+      font-size: 17px;
+      margin-left: 90px;
+      margin-right: 110px;
+      padding-left: 15px;
+
+  }
+
+  .box4 h3{
+     
+      margin-left: 230px;
+  }
+
+
+  #adv{
+      margin-left: 135px;
+  }
+
+  #comp{
+      margin-left: 150px;
+  }
+
+  
+  
+  #yourceleb{
+      margin-left: 100px;
+     margin-right: 100px;
+     font-size: 17px;
+  }
+
+  .clbm{
+      font-size: 17px;
+  }
+
+  .box4 button{
+      margin-left: 150px;
+     margin-right: 150px;
+    
+  }
+
+  .toggle{
+      display: block;
+  }
+
+ 
+  .heading{
+      position: absolute;
+      width: 100%;
+      display: none;
+      margin-left: 109px;
+  }
+
+  .heading img{
+      display: none;
+  }
+
+  .heading > div{
+    
+      display: block;
+      text-align: center;
+     
+  }
+
+  .heading > div a{
+      padding: 5px;
+      float: left;
+      margin-left: 150px;
+      font-size: 15px;
+  }
+
+  .active{
+      display: block;
+  }
+
+  .about .geners .services .countries .home{
+      display: none;
+  }
+
+  .menu{
+     margin-right: 200px;
+  }
+
+  ul{
+      position: absolute;
+      margin-left: 50px;
+  }
+
+ 
+  li:hover{
+      margin-left: 30px;
+  }
+}
+
+
+@media(max-width: 360px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 5px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    /* .wrapper {
+     display: none;
+      
+    } */
+
+
+    .wrapper{
+        grid-auto-rows: 95px;
+        margin-left: 40px;
+        margin-right: 5px;
+       }
+    
+       
+        .wrapper img{
+            height: 75px;
+            width: 100%;
+          
+        }
+
+    .box2{
+      height: 50px;
+      background-color: grey;
+  }
+
+  .box2 > div{
+      margin-left: 110px;
+      margin-right: 445px;
+      padding-left: 10px;
+  }
+    
+    .topper > div img{
+          height: 78px;
+          width: 49px;
+    }
+
+    
+    .cont{
+        grid-gap: 0%;
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+
+    .box1{
+        margin: 0%;
+    }
+
+
+    .heading{
+        display: none;
+    }
+
+    .synopsis{
+        font-size: 7.5px;
+        line-height: 15px;
+    }
+   
+    .onvd h3{
+      margin-left: 80px;
+    }
+
+    .onvd{
+      margin-left: 160px;
+      margin-right: 160px;
+      padding-left: 15px;
+    }
+
+    #defin{
+     font-size: 17px;
+      margin-left: 1px;
+      margin-right: 35px;
+      padding-left: 15px;
+    }
+
+    .intitle{
+        font-size: 5px;
+    }
+
+    .intype1{
+        font-size: 5px;
+    }
+  
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+   
+  .indisplay > div{
+       
+      display: none;
+  }
+
+
+    .displaypic{
+        height: 50px;
+        width: 100%;
+    }
+
+  
+    .news > div video{
+      margin-left: 30px;
+    }
+
+    .news > div img{
+      margin-left: 30px;
+    }
+
+  .box3{
+      justify-content: center; 
+      
+  }
+
+  .box3 h4{
+      margin-left: 175px;
+  }
+
+  .box3 p{
+     
+      margin-left: 158px;
+      margin-right: 165px;
+      padding-left: 15px;
+  }
+
+  
+  .box5 h3{
+     margin-left: 300px;
+     font-size: 18px;
+  } 
+
+  .box5 p{
+      font-size: 17px;
+  }
+
+  
+  #lstp{
+      font-size: 14px;
+      margin-left: 160px;
+      margin-right: 170px;
+      padding-left: 15px;
+
+  }
+
+  #uptp{
+      font-size: 16px;
+      margin-left: 160px;
+      margin-right: 220px;
+      padding-left: 15px;
+
+  }
+
+  #dstp{
+      color: white;
+      font-size: 16px;
+      margin-left: 150px;
+      margin-right: 170px;
+      padding-left: 15px;
+
+  }
+
+  .box4 h3{
+     
+      margin-left: 270px;
+  }
+
+
+  #adv{
+      margin-left: 200px;
+  }
+
+  #comp{
+      margin-left: 185px;
+  }
+
+  
+  
+  #yourceleb{
+      margin-left: 170px;
+     margin-right: 200px;
+     font-size: 15px;
+  }
+
+  .box4 button{
+      margin-left: 250px;
+     margin-right: 260px;
+    
+  }
+
+  .toggle{
+   
+    display: block;
+    width: 100%;
+}
+
+.heading{
+    position: absolute;
+    display: none;
+  
+}
+
+.heading img{
+    display: none;
+}
+
+.heading > div{
+    display: block;
+    text-align: center;
+}
+
+.heading > div a{
+  padding: 5px;
+  float: left;
+  font-size: 13px;
+
+}
+
+.active{
+    display: block;
+}
+
+.about .geners .services .countries .home{
+    display: none;
+}
+
+.menu{
+   margin-right: 200px;
+}
+
+ul{
+  position: absolute;
+}
+
+ul li{
+  width: 20px;
+}
+
+ul li a{
+   position: absolute;
+}
+
+li:hover{
+padding-right: 95px;
+}
+}
+
+
+
+@media(max-width: 580px){
+
+    .body{
+      
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            overflow-x: hidden;
+        }
+    
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 5px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+   
+    .topper{
+        grid-gap: 0.5em;
+        width: 100%;
+        margin: 0px; 
+        grid-template-columns: repeat(8, 1fr);
+        grid-auto-rows: 20px;
+    }
+    
+    .topper > div{
+        margin-right: -20%;
+        display: inline;
+        max-width: 100%;
+    }
+   
+    .cont{
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+    .heading {
+        cursor: pointer;
+    }
+
+    .heading > div{
+        margin-left: 5px;
+        text-align: center;
+    
+    }
+
+    .heading a{
+        font-size: 10px;
+
+    }
+   
+    .intitle{
+        font-size: 2px;
+    }
+
+    .intype1{
+        font-size: 2px;
+    }
+    
+
+    /* .menu{
+        width: 50%;
+       margin-left: 500px;
+    } */
+
+    /* .active{
+        display: block;
+    } */
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+    
+    .indisplay{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: (100px, auto);
+        grid-gap: 1em;
+ 
+    }
+
+    .indisplay > div{
+        /* height: 150px; */
+        margin-right: 15%;
+       
+    }
+
+    
+    .box2{
+        height: 110px;
+    }
+
+    .displaypic{
+        height: 70px;
+        width: 100%;
+    }
+
+    #indown{
+       
+        font-size: 0px;
+    }
+    
+  
+}
+
+
+@media(max-width: 596px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 5px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper {
+        max-width: 98%;
+        grid-gap: 0.5em; 
+        
+    }
+
+    .wrapper > div{
+        width: 50px;
+       background-color: bisque;
+       left: 60%;
+    }
+
+    .topper{
+        grid-gap: 0.5em;
+        width: 100%;
+        margin: 0px; 
+        grid-template-columns: repeat(8, 1fr);
+        grid-auto-rows: 20px;
+    }
+    
+    .topper > div{
+        margin-right: -20%;
+        display: inline;
+        max-width: 100%;
+    }
+   
+    .cont{
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+    .heading {
+        cursor: pointer;
+    }
+
+    .heading > div{
+        margin-left: 5px;
+        text-align: center;
+    
+    }
+
+    .heading a{
+        font-size: 10px;
+
+    }
+   
+    .intitle{
+        font-size: 2px;
+    }
+
+    .intype1{
+        font-size: 2px;
+    }
+    
+
+    /* .menu{
+        width: 50%;
+       margin-left: 500px;
+    } */
+
+    /* .active{
+        display: block;
+    } */
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+    
+    .indisplay{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: (100px, auto);
+        grid-gap: 1em;
+        word-wrap: break-word;
+    }
+
+    .indisplay > div{
+        /* height: 150px; */
+        font-size: 0px;
+        margin-right: 15%;
+       
+    }
+
+    
+    .box2{
+        height: 110px;
+    }
+
+    .displaypic{
+        height: 70px;
+        width: 100%;
+    }
+
+    #indown{
+       
+        font-size: 0px;
+    }
+    
+  
+}
+
+
+@media(max-width: 692px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 11px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper {
+        max-width: 98%;
+        grid-gap: 0.5em; 
+        
+    }
+
+    .wrapper > div{
+        width: 50px;
+       background-color: bisque;
+       margin-right: -8%;
+    }
+
+    .topper{
+        grid-gap: 0.5em;
+        width: 100%;
+        margin: 0px; 
+        grid-template-columns: repeat(8, 1fr);
+        grid-auto-rows: 20px;
+    }
+    
+    .topper > div{
+        margin-right: -20%;
+        display: inline;
+        max-width: 100%;
+    }
+
+    .topper img{
+        height: 60px;
+        width: 20px;
+    }
+   
+    .cont{
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+    .heading {
+        cursor: pointer;
+    }
+
+    .heading > div{
+       font-size: 11px;
+        text-align: center;
+        margin: 0%;
+    }
+   
+    .intitle{
+        font-size: 2px;
+    }
+
+    .intype1{
+        font-size: 2px;
+    }
+    
+
+    /* .menu{
+        width: 50%;
+       margin-left: 500px;
+    } */
+
+    /* .active{
+        display: block;
+    } */
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+    
+    .indisplay{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: (100px, auto);
+        grid-gap: 1em;
+    }
+
+    .indisplay > div{
+        height: 150px;
+        font-size: 10px;
+    }
+
+    
+    .box2{
+        height: 110px;
+    }
+
+    .displaypic{
+        height: 70px;
+        width: 100%;
+    }
+
+    #indown{
+        font-size: 9px;
+    }
+    
+}
+
+@media(max-width: 736px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:90%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper {
+        max-width: 100%;
+        grid-gap: 0.5em; 
+        
+    }
+
+    .wrapper > div{
+        width: 60%;
+       margin-left: 5px;
+       background-color: bisque;
+    }
+
+    .topper{
+        grid-gap: 0.5em;
+        width: 98%;
+        margin: 0px; 
+        grid-template-columns: repeat(8, 1fr);
+        grid-auto-rows: 20px;
+    }
+    
+    .topper > div{
+       margin: 0px;
+        display: inline;
+        max-width: 100%;
+    }
+
+    .topper img{
+        height: 60px;
+        width: 20px;
+    }
+   
+    .cont{
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+    .heading {
+        cursor: pointer;
+    }
+
+    .heading > div{
+       font-size: 11px;
+        text-align: center;
+        margin: 0%;
+    }
+   
+    .intitle{
+        font-size: 3px;
+    }
+
+    .intype1{
+        font-size: 3px;
+    }
+    
+
+    /* .menu{
+        width: 50%;
+       margin-left: 500px;
+    } */
+
+    /* .active{
+        display: block;
+    } */
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+    
+    .indisplay{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: (100px, auto);
+        grid-gap: 1em;
+    }
+
+    .indisplay > div{
+        height: 150px;
+        font-size: 10px;
+    }
+
+    
+    .box2{
+        height: 110px;
+    }
+
+    .displaypic{
+        height: 70px;
+        width: 100%;
+    }
+
+    
+}
+
+
+
+
+  @media(max-width: 748px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:90%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper {
+        max-width: 100%;
+        grid-gap: 0.5em; 
+        
+    }
+
+    .wrapper > div{
+        width: 60%;
+       margin-left: 5px;
+       background-color: bisque;
+    }
+
+    .topper{
+        grid-gap: 0.5em;
+        width: 98%;
+        margin: 3px; 
+        grid-template-columns: repeat(8, 1fr);
+        grid-auto-rows: 20px;
+    }
+    
+    .topper > div{
+       margin: 3px;
+        display: inline;
+        max-width: 100%;
+    }
+
+    .topper img{
+        height: 100px;
+        width: 70px;
+    }
+   
+    .cont{
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+    .heading {
+        cursor: pointer;
+    }
+
+    .heading > div{
+       font-size: 13px;
+        text-align: center;
+        margin: 0%;
+    }
+   
+    .intitle{
+        font-size: 3px;
+    }
+
+    .intype1{
+        
+        font-size: 3px;
+    }
+    
+
+    /* .menu{
+        width: 50%;
+       margin-left: 500px;
+    } */
+
+    .active{
+        display: block;
+    }
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+    
+    .indisplay{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: (100px, auto);
+        grid-gap: 1em;
+    }
+
+    .indisplay > div{
+        height: 150px;
+        font-size: 10px;
+    }
+
+    
+    .box2{
+        height: 110px;
+    }
+
+    .displaypic{
+        height: 70px;
+        width: 100%;
+    }
+
+    
+}
+
+
+
+  @media(max-width: 768px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:90%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper {
+        max-width: 100%;
+        grid-gap: 0.5em; 
+        
+    }
+
+    .wrapper > div{
+        width: 60%;
+       margin-left: 5px;
+       background-color: bisque;
+    }
+
+    .topper{
+        grid-gap: 0.5em;
+        width: 98%;
+        margin: 3px; 
+        grid-template-columns: repeat(8, 1fr);
+        grid-auto-rows: 20px;
+    }
+    
+    .topper > div{
+       margin: 3px;
+        display: inline;
+        max-width: 100%;
+    }
+
+    .topper img{
+        height: 100px;
+        width: 70px;
+    }
+   
+    .cont{
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+    .heading {
+        cursor: pointer;
+    }
+
+    .heading > div{
+       font-size: 13px;
+        text-align: center;
+        margin: 0%;
+    }
+   
+    .intitle{
+        font-size: 3px;
+    }
+
+    .intype1{
+        
+        font-size: 3px;
+    }
+    
+
+    /* .menu{
+        width: 50%;
+       margin-left: 500px;
+    } */
+
+    .active{
+        display: block;
+    }
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+    
+    .indisplay{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: (100px, auto);
+        grid-gap: 1em;
+    }
+
+    .indisplay > div{
+        height: 150px;
+        font-size: 10px;
+    }
+
+    
+    .box2{
+        height: 110px;
+    }
+
+    .displaypic{
+        height: 70px;
+        width: 100%;
+    }
+
+    
+}
+
+
+@media(max-width: 780px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:90%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper {
+        max-width: 100%;
+        grid-gap: 0.5em; 
+        
+    }
+
+    .wrapper > div{
+        width: 60%;
+       margin-left: 5px;
+       background-color: bisque;
+    }
+
+    .topper{
+        grid-gap: 0.5em;
+        width: 98%;
+        margin: 3px; 
+        grid-template-columns: repeat(8, 1fr);
+        grid-auto-rows: 20px;
+    }
+    
+    .topper > div{
+       margin: 3px;
+        display: inline;
+        max-width: 100%;
+    }
+
+    .topper img{
+        height: 100px;
+        width: 70px;
+    }
+   
+    .cont{
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+    .heading {
+        cursor: pointer;
+    }
+
+    .heading > div{
+       font-size: 13px;
+        text-align: center;
+        margin: 0%;
+    }
+   
+    .intitle{
+        font-size: 3px;
+    }
+
+    .intype1{
+        
+        font-size: 3px;
+    }
+    
+
+    /* .menu{
+        width: 50%;
+       margin-left: 500px;
+    } */
+
+    .active{
+        display: block;
+    }
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+    
+    .indisplay{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: (100px, auto);
+        grid-gap: 1em;
+    }
+
+    .indisplay > div{
+        height: 150px;
+        font-size: 10px;
+    }
+
+    
+    .box2{
+        height: 110px;
+    }
+
+    .displaypic{
+        height: 70px;
+        width: 100%;
+    }
+
+    
+}
+
+@media(max-width: 1234px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+   
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:90%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper {
+        max-width: 100%;
+        grid-gap: 0.5em; 
+        
+    }
+
+    .wrapper > div{
+        width: 60%;
+       margin-left: 5px;
+       background-color: bisque;
+    }
+
+    .topper{
+        grid-gap: 0.5em;
+        width: 98%;
+        margin: 3px; 
+        grid-template-columns: repeat(8, 1fr);
+        grid-auto-rows: 20px;
+    }
+    
+    .topper > div{
+       margin: 3px;
+        display: inline;
+        max-width: 100%;
+    }
+
+    .topper img{
+        height: 100px;
+        width: 70px;
+    }
+   
+    .cont{
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+    .heading {
+     
+        cursor: pointer;
+        /* display: block; */
+
+    }
+
+    .heading > div{
+       font-size: 13px;
+        text-align: center;
+        margin: 0%;
+     
+    }
+
+   
+    .intitle{
+        font-size: 3px;
+    }
+
+    .intype1{
+        
+        font-size: 3px;
+        font-size: 20px;
+    }
+
+    input{
+        margin: 0px, 40px, 0px;
+    }
+    
+    
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+    
+    .indisplay{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: (100px, auto);
+        grid-gap: 1em;
+    }
+
+    .indisplay > div{
+        height: 150px;
+        font-size: 10px;
+    }
+
+    
+    .box2{
+        height: 110px;
+    }
+
+    .displaypic{
+        height: 70px;
+        width: 100%;
+    }
+
+    .news > div{
+        background-color: black;
+    }
+
+    .newspic{
+        width: 280px;
+        height: 230px;
+        padding-left: 150px;
+    }
+
+    .news > div video{
+        padding-left: 150px;
+    }
+    
+    #scrow{
+        color: white; 
+        margin: 10px;
+    }
+    
+}

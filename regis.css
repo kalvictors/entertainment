@@ -1,0 +1,41 @@
+html, body{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.multi-level, .item ul, .nav input[type="checkbox"]{
+    display: none;
+}
+
+#menu:checked ~ .multi-level, .item input:checked ~ ul{
+    display: block;
+}
+
+.arrow{
+    display: none;
+}
+
+label:hover{
+    cursor: pointer;
+}
+
+label{
+    width: 100%;
+    display: block;
+    z-index: 3;
+    position: relative;
+}
+
+.nav{
+    width: 100%;
+    background-color: white;
+    overflow-x: hidden;
+    border-bottom: 1px solid blue;
+}
+
+#nav-icon{
+    font-size: 
+}

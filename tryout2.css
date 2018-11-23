@@ -1,0 +1,674 @@
+@media(max-width: 411px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 5px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper{
+        grid-auto-rows: 180px;
+        margin-left: 385px;
+        margin-right: 390px;
+       }
+
+       .wrapper > div{
+          background-color: lightseagreen;
+       } 
+    
+       
+        .wrapper img{
+            height: 130px;
+            width: 100%;
+          
+        }
+
+    .box2{
+            padding-left: 295px;
+            padding-right: 140px;
+             height: 100px;
+             background-color: grey;
+         }
+
+    .box2 > div{
+        margin-left: 210px;
+        margin-right: 140px;
+        padding-left: 10px;
+    }
+        
+        .topper > div img{
+            height: 90px;
+            width: 70px;
+        }
+
+    
+    .cont{
+       
+        grid-gap: 0%;
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+
+    .box1{
+        margin: 0%;
+    }
+
+
+    .heading{
+        display: none;
+    }
+   
+    .onvd h3{
+      margin-left: 80px;
+    }
+
+    .onvd{
+      margin-left: 180px;
+      margin-right: 180px;
+      padding-left: 15px;
+    }
+
+    #defin{
+     font-size: 17px;
+      margin-left: 1px;
+      margin-right: 15px;
+      padding-left: 15px;
+    }
+
+    .intitle{
+        font-size: 11px;
+    }
+
+    .intype1{
+        font-size: 14px;
+        display: none;
+    }
+
+    .intype{
+        font-size: 11px;
+        display: none;
+    } 
+  
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+   
+   
+  .indisplay > div{
+       
+      display: none;
+  }
+
+
+    .displaypic{
+        height: 110px;
+        width: 100%;
+    }
+
+    .news > div{
+       
+        background-color: black;
+    }
+  
+    .news > div video{
+        padding: 3px;
+      margin-left: 570px;
+    }
+
+    .news > div img{
+        padding: 3px;
+      margin-left: 570px;
+    }
+
+    .box4 > div video{
+        padding: 3px;
+      margin-left: 570px;
+    }
+
+  /* .box3{
+    margin-left: -300px;
+    margin-right: -350px;
+      
+  } */
+
+
+  .box3 h4{
+      margin-left: 520px;
+      font-size: 25px;
+  }
+
+  .box3 p{
+     font-size: 20px;
+    margin-left: 500px;
+    margin-right: 510px;
+    padding-left: 15px;
+  }
+
+  
+  .box5 h3{
+     margin-left: 670px;
+     font-size: 18px;
+  } 
+
+  .box5 p{
+      font-size: 17px;
+  }
+
+  .tit{
+      font-size: 20px;
+      padding: 7px;
+    margin-left: 520px;
+    margin-right: 520px;
+  }
+
+
+  
+  #lstp{
+      font-size: 14px;
+      margin-left: 510px;
+      margin-right: 510px;
+      padding-left: 15px;
+
+  }
+
+  #uptp{
+      font-size: 16px;
+      margin-left: 160px;
+      margin-right: 220px;
+      padding-left: 15px;
+
+  }
+
+  #dstp{
+      color: white;
+      font-size: 16px;
+      margin-left: 490px;
+      margin-right: 510px;
+      padding-left: 20px;
+
+  }
+
+  .clbm{
+    margin-left: 90px;
+    margin-right: 90px;
+      font-size: 14px;
+  }
+
+  .box4 h3{
+      font-size: 20px;
+      margin-left: 640px;
+  }
+
+
+  #adv{
+      margin-left: 100px;
+  }
+
+  #comp{
+      margin-left: 565px;
+      margin-right: 410px;
+      height: 140px;
+  }
+
+  
+  
+  #yourceleb{
+      margin-left: 570px;
+     margin-right: 570px;
+     font-size: 17px;
+  }
+
+  .box4 button{
+      margin-left: 600px;
+     margin-right: 600px;
+    
+  }
+
+  .nav{
+    margin-left: 0px;
+    display: block;
+    width: 60%;
+}
+
+.nav img{
+    margin-right: 270px;
+    
+}
+
+#nav-icon{
+    margin-right: 1000px;
+}
+
+
+.heading{
+    position: absolute;
+    display: none;
+    margin-left: 800px;
+}
+
+.heading img{
+    display: none;
+}
+
+.heading > div{
+    display: block;
+    text-align: center;
+  
+}
+
+.heading > div a{
+  padding: 5px;
+  float: left;
+  font-size: 13px;
+}
+
+.active{
+    display: block;
+}
+
+.about .geners .services .countries .home{
+    display: none;
+}
+
+.item{
+  text-align: center;
+  margin-left: 680px;
+}
+
+.nav ul li{
+  
+  margin-top: 55px;
+  height: 20px;
+  font-size: 15px;
+ 
+}
+
+
+}
+
+
+@media(max-width: 360px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .cont{
+        width: 100%;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 5px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper{
+        grid-auto-rows: 150px;
+       
+        margin-left: 280px;
+        margin-right: 45px;
+       }
+
+       .wrapper > div{
+          background-color: lightseagreen;
+       } 
+    
+       
+        .wrapper img{
+            height: 110px;
+            width: 100%;
+          
+        }
+
+    .box2{
+            padding-left: 194px;
+            padding-right: 90px;
+             height: 100px;
+             background-color: grey;
+         }
+
+    .box2 > div{
+        margin-left: 64px;
+        margin-right: 174px;
+        padding-left: 10px;
+    }
+        
+        .topper > div img{
+            height: 90px;
+            width: 65px;
+        }
+
+    
+    .cont{
+       
+        grid-gap: 0%;
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+
+    .box1{
+        margin: 0%;
+    }
+
+
+    .heading{
+        display: none;
+    }
+   
+    .onvd h3{
+      margin-left: 80px;
+    }
+
+    .onvd{
+      margin-left: 180px;
+      margin-right: 180px;
+      padding-left: 15px;
+    }
+
+    #defin{
+     font-size: 17px;
+      margin-left: 1px;
+      margin-right: 15px;
+      padding-left: 15px;
+    }
+
+    .intitle{
+        font-size: 11px;
+    }
+
+    .intype1{
+        font-size: 11px;
+        display: none;
+    }
+
+    .intype{
+        font-size: 11px;
+        display: none;
+    } 
+  
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+   
+  .indisplay > div{
+       
+      display: none;
+  }
+
+
+    .displaypic{
+        height: 100px;
+        width: 100%;
+    }
+
+    .news > div{
+       
+        background-color: black;
+    }
+  
+    .news > div video{
+        padding: 3px;
+      margin-left: 290px;
+    }
+
+    .news > div img{
+        padding: 3px;
+      margin-left: 290px;
+    }
+
+    .box4 > div video{
+        padding: 3px;
+      margin-left: 290px;
+    }
+
+  /* .box3{
+    margin-left: -300px;
+    margin-right: -350px;
+      
+  } */
+
+
+  .box3 h4{
+      margin-left: 285px;
+  }
+
+  .box3 p{
+     
+    margin-left: 265px;
+    margin-right: 270px;
+      padding-left: 15px;
+  }
+
+  
+  .box5 h3{
+     margin-left: 400px;
+     font-size: 18px;
+  } 
+
+  .box5 p{
+      font-size: 17px;
+  }
+
+  .tit{
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 278px;
+    margin-right: 278px;
+  }
+
+
+  
+  #lstp{
+      font-size: 14px;
+      margin-left: 260px;
+      margin-right: 280px;
+      padding-left: 15px;
+
+  }
+
+  #uptp{
+      font-size: 16px;
+      margin-left: 160px;
+      margin-right: 220px;
+      padding-left: 15px;
+
+  }
+
+  #dstp{
+      color: white;
+      font-size: 16px;
+      margin-left: 250px;
+      margin-right: 270px;
+      padding-left: 15px;
+
+  }
+
+  .clbm{
+    margin-left: 90px;
+    margin-right: 90px;
+      font-size: 15px;
+  }
+
+  .box4 h3{
+      margin-left: 380px;
+  }
+
+
+  #adv{
+      margin-left: 100px;
+  }
+
+  #comp{
+      margin-left: 290px;
+      margin-right: 380px;
+  }
+
+  
+  
+  #yourceleb{
+      margin-left: 300px;
+     margin-right: 300px;
+     font-size: 14px;
+  }
+
+  .box4 button{
+      margin-left: 300px;
+     margin-right: 300px;
+    
+  }
+
+  .nav{
+    margin: 5px;
+      display: block;
+      width: 60%;
+  }
+
+  .nav img{
+    margin-right: 190px;
+}
+
+#nav-icon{
+    margin-right: 800px;
+}
+
+  .heading{
+      position: absolute;
+      display: none;
+      margin-left: 800px;
+  }
+
+  .heading img{
+      display: none;
+  }
+
+  .heading > div{
+      display: block;
+      text-align: center;
+    
+  }
+
+  .heading > div a{
+    padding: 5px;
+    float: left;
+    font-size: 13px;
+}
+
+  .active{
+      display: block;
+  }
+
+  .about .geners .services .countries .home{
+      display: none;
+  }
+
+  .item{
+    text-align: center;
+    margin-left: 400px;
+}
+
+.nav ul li{
+    display: block;
+    font-size: 15px;
+ 
+}
+  /* .menu{
+     margin-right: 200px;
+  }
+
+  ul{
+    position: absolute;
+}
+
+ul li{
+    width: 5px;
+}
+
+ul li a{
+     position: absolute;
+}
+
+li:hover{
+  padding-right: 130px;
+}
+
+.heading .container{
+    display: none; */
+}
+}
