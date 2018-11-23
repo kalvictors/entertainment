@@ -26,8 +26,8 @@
         grid-template-areas:
         'box1'
         'box2'
-        'box4'
         'box3'
+        'box4'
         'box5'
         'box6'
     }
@@ -42,7 +42,7 @@
     
     .box2{
         grid-area: box2;
-        height: 200px;
+        height: 100px;
  
     }
        
@@ -52,24 +52,147 @@
              padding-left: 0px;
          }
 
+         .slidingimg{
+            margin: 5px; 
+            display: grid;
+            grid-template-columns: repeat(11, 1fr);
+            grid-gap: 0.5em; 
+            border: 1px solid black;
+            color: white;
+        }
+
+        .box2{
+           
+             height: 110px;
+            
+         }
+
+    .box2 > div{
+     
+        margin-right: 10px;
+       
+    }
         
+        .slidingimg > div{
+            background-color: gray;
+            color: blue;
+            text-align: center;
+            padding: 2px;
+            cursor: pointer;
+            display: inline;
+            margin: 2px;
+        }
+        
+        .slidingimg a{
+            color: maroon;
+        }
+        
+
+        .slidingimg > div img{
+            height: 90px;
+            width: 70px;
+        }
     
     
     .box3{
+        grid-auto-rows: 100px;
         grid-area: box3;
-        width: 410px;
+        width: 550px;
+    
     }
 
-    .box3 img{
-        margin-left: 50px;
+    .wrapper img{
+        /* margin-left: 50px; */
+        height: 160px;
+        /* width: 100px; */
+    }
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 220px ;
+        height: 450px;
+        width: 400px;
+    }
+
+    .geners1{
+        font-size: 12px;
+    }
+
+    .geners1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5em;
+        margin: 30px;
+        display: none;
+    }
+    
+    .geners1 > div{
+       width: 100px;
+    }
+    
+
+    #onit{
+        margin-right: 130px;
+    }
+
+    .news > div{
+        width: 390px;
     }
     
     .box4{
         grid-area: box4;
-        width: 700px;
-        
-        /* padding-right: 2000px; */
+        width: 410px;
     }
+
+    .box4 p{
+        margin-right: 5px;
+    }
+
+    #comp{
+        margin-left: 60px;
+       margin-right: 950px;
+        height: 140px;
+    }
+
+    .box4 > div img{
+        margin-left: 50px;
+    }
+  
+    .box4 > div video{
+        margin-left: 50px;
+    }
+    
+    #yourceleb{
+       font-size: 17px;
+    }
+  
+    .box4 button{
+        margin-left: 100px;
+       margin-right: 700px;
+      
+    }
+
+    .indisplay{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+        width: 400px;
+    }
+    
+    .indisplay > div{
+        margin: 10px;
+        width: 185px;
+    }
+
+    .box5 h3{
+        margin-left: 160px;
+    }
+
+    .box5 p{
+        margin-right: 400px;
+    }
+  
 
    .heading{
        display: none;
@@ -77,13 +200,70 @@
 
    .topper{
        display: none;
-       font-size: 11px;
-       
    }
 
-   .topper > div{
-    margin-right: 70px;
+   .tit{
+       margin-right: 160px;
+       font-size: 20px;
    }
+
+   .nav{
+    margin-left: 0px;
+    display: block;
+    width: 60%;
+}
+
+.nav img{
+    margin-right: 530px;
+    
+}
+
+/* .multi-level{
+    margin-right: 100px;
+} */
+
+.heading{
+    position: absolute;
+    display: none;
+    margin-left: 800px;
+}
+
+.heading img{
+    display: none;
+}
+
+.heading > div{
+    display: block;
+    text-align: center;
+  
+}
+
+.heading > div a{
+  padding: 5px;
+  float: left;
+  font-size: 13px;
+}
+
+.active{
+    display: block;
+}
+
+.about .geners .services .countries .home{
+    display: none;
+}
+
+.item{
+  text-align: center;
+  margin-left: 180px;
+}
+
+.nav ul li{
+  
+  margin-top: 55px;
+  height: 20px;
+  font-size: 15px;
+ 
+}
 
    
 
@@ -117,54 +297,245 @@
         grid-template-areas:
         'box1'
         'box2'
-        'box4'
         'box3'
+        'box4'
         'box5'
         'box6'
     }
     
     .box1{
-        margin: 0px;
         font-size: 11px;
-        margin-right: 300px;
+        margin-right: 280px;
         grid-area: box1;
-       
         background-color: black;
     }
     
     .box2{
         grid-area: box2;
-        height: 100px;
+        
+ 
     }
        
     .box2 > div{
-             margin-left: 0px;
+             margin-left: 5px;
              margin-right: 0px;
              padding-left: 0px;
          }
 
-         .topper > div img{
-            height: 75px;
-            width: 64px;
-      }
-  
+         .slidingimg{
+            margin: 5px; 
+            display: grid;
+            grid-template-columns: repeat(11, 1fr);
+            grid-gap: 0.5em; 
+            border: 1px solid black;
+            color: white;
+        }
+
+        .box2{
+           
+             height: 100px;
+            
+         }
+
+    .box2 > div{
+     
+        margin-right: 10px;
+       
+    }
+        
+        .slidingimg > div{
+            background-color: gray;
+            color: blue;
+            text-align: center;
+            padding: 2px;
+            cursor: pointer;
+            display: inline;
+            margin: 2px;
+        }
+        
+        .slidingimg a{
+            color: maroon;
+        }
+        
+
+        .slidingimg > div img{
+            height: 80px;
+            width: 60px;
+        }
     
     
     .box3{
+        grid-auto-rows: 100px;
         grid-area: box3;
-        width: 360px;
+        width: 500px;
+    
     }
 
-    .box3 img{
-        margin-left: 20px;
+    .wrapper img{
+        /* margin-left: 50px; */
+        height: 130px;
+        /* width: 100px; */
+    }
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 190px;
+        height: 380px;
+        width: 350px;
+    }
+
+    .geners1{
+        font-size: 12px;
+    }
+
+    .geners1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5em;
+        margin: 30px;
+        display: none;
+    }
+    
+    .geners1 > div{
+       width: 100px;
+    }
+
+    #onit{
+        margin-right: 140px;
+    }
+
+    .news > div{
+        width: 340px;
     }
     
     .box4{
         grid-area: box4;
-        width: 650px;
-        
-        /* padding-right: 2000px; */
+        width: 362px;
     }
 
+    .box4 p{
+        margin-right: 15px;
+    }
+
+    #comp{
+        margin-left: 35px;
+       margin-right: 950px;
+        height: 140px;
+    }
+
+    .box4 > div img{
+        margin-left: 30px;
+    }
+  
+    .box4 > div video{
+        margin-left: 30px;
+    }
+    
+    #yourceleb{
+       font-size: 17px;
+    }
+  
+    .box4 button{
+        margin-left: 80px;
+       margin-right: 710px;
+      
+    }
+
+    .indisplay{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+        width: 350px;
+    }
+    
+    .indisplay > div{
+        margin: 10px;
+        width: 160px;
+    }
+
+    .box5 h3{
+        margin-left: 130px;
+    }
+
+    .box5 p{
+        margin-right: 450px;
+    }
+  
+
+   .heading{
+       display: none;
+   }
+
+   .topper{
+       display: none;
+   }
+
+   .tit{
+       margin-left: 27px;
+       margin-right: 150px;
+       font-size: 15px;
+       padding: 5px;
+   }
+
+   .nav{
+    margin-left: 0px;
+    display: block;
+    width: 45%;
+}
+
+.nav img{
+    margin-right: 530px;
+    
+}
+
+/* .multi-level{
+    margin-right: 100px;
+} */
+
+.heading{
+    position: absolute;
+    display: none;
+    margin-left: 800px;
+}
+
+.heading img{
+    display: none;
+}
+
+.heading > div{
+    display: block;
+    text-align: center;
+  
+}
+
+.heading > div a{
+  padding: 5px;
+  float: left;
+  font-size: 13px;
+}
+
+.active{
+    display: block;
+}
+
+.about .geners .services .countries .home{
+    display: none;
+}
+
+.item{
+  text-align: center;
+  margin-left: 130px;
+}
+
+.nav ul li{
+  
+  margin-top: 55px;
+  height: 20px;
+  font-size: 15px;
+ 
+}
+
    
+
 }
