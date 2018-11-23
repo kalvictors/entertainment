@@ -42,7 +42,7 @@
     
     .box2{
         grid-area: box2;
-        height: 100px;
+        height: 200px;
  
     }
        
@@ -52,11 +52,7 @@
              padding-left: 0px;
          }
 
-         .topper > div img{
-            height: 85px;
-            width: 73.5px;
-      }
-  
+        
     
     
     .box3{
@@ -75,185 +71,21 @@
         /* padding-right: 2000px; */
     }
 
-    .box22{
-        margin-left: 10px;
-        margin-right: 300px;
-    }
-    
-    .box5{
-        grid-area: box5;
-        width: 410px;
-    }
-
-    .box5 img{
-        margin-left: 50px;
-    }
-    
-    .box6{
-        grid-area: box6;
-    }
-    
-    .box1 img{
-        width: 30px;
-        height: 30px;
-    }
-
-    .indisplay{
-        display: none;
-    }
-
-    .movietitle{
-        color: blue;
-    }
-  
-    .plot{
-        padding: 15px;
-        color: black;
-        border: solid 2px brown;
-    }
-  
-    .cstpc{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 0em;
-      margin-left: 20px;
-  }
-  
-  .box22 h5{
-      margin: 0px;
-      font-size: 50px;
-  }
-  
-  .box22 h4{
-      border: solid 2px brown;
-      margin-right: 250px;
-      padding: 15px;
-  }
-  
-  .box22 h3{
-     color: black;
-  }
-  
-  .box22 h2{
-      color: green;
+   .heading{
+       display: none;
    }
-  
-  #castpics{
-      border: solid 2px black;
-      width: 190px;
-      height: 210px;
-  }
 
-  #castpics{
-    height: 120px;
-    width: 100px;
-}
+   .topper{
+       display: none;
+       font-size: 11px;
+       
+   }
 
+   .topper > div{
+    margin-right: 70px;
+   }
 
-.box22 h4{
-    margin-right: 0px;
-}
-
-.box22 p{
-    margin-right: 0px;
-}
-
-.box22 h2{
-    font-size: 20px;
- }
-
- .cstpc{
-     margin-left: 20px;
- }
-
- .cstpc h5{
-     font-size: 15px;
- }
-
-.cach{
-   margin-right: 300px;
- }
-
- .content{
-    font-size: 25px;
-    color: green;
-    margin-left: 10px;
- }
-
- .box6 h3{
-    margin-left: 160px;
-    font-size: 18px;
- } 
-
- .box6 p{
-     font-size: 17px;
-     margin-right: 350px;
- }
-
- .nav{
-     padding: 7px;
-    margin-left: 0px;
-    display: block;
-    width: 70%;
-}
-
-.nav img{
-    margin-right: 470px;
-    width: 60px;
-}
-
-#nav-icon{
-    
-    font-size: 37px;
-}
-
-.heading{
-    position: absolute;
-    display: none;
-    margin-left: 800px;
-}
-
-.heading img{
-    display: none;
-}
-
-.heading > div{
-    display: block;
-    text-align: center;
-  
-}
-
-.heading > div a{
-  padding: 5px;
-  float: left;
-  font-size: 13px;
-}
-
-.active{
-    display: block;
-}
-
-.about .geners .services .countries .home{
-    display: none;
-}
-
-.item{
-  text-align: center;
-  margin-left: 200px;
-}
-
-.nav ul li{
-  
-  margin-top: 55px;
-  height: 20px;
-  font-size: 15px;
- 
-}
-
-/* .multi-level{
-    margin-left: 100px;
-} */
-
+   
 
 }
 
@@ -303,7 +135,6 @@
     .box2{
         grid-area: box2;
         height: 100px;
- 
     }
        
     .box2 > div{
@@ -335,184 +166,5 @@
         /* padding-right: 2000px; */
     }
 
-    .box22{
-        margin-left: 10px;
-        margin-right: 300px;
-    }
-    
-    .box5{
-        grid-area: box5;
-        width: 360px;
-    }
-
-    .box5 img{
-        margin-left: 20px;
-    }
-    
-    .box6{
-        grid-area: box6;
-    }
-    
-    .box1 img{
-        width: 30px;
-        height: 30px;
-    }
-
-    .indisplay{
-        display: none;
-    }
-
-    .movietitle{
-        color: blue;
-    }
-  
-    .plot{
-        padding: 15px;
-        color: black;
-        border: solid 2px brown;
-    }
-  
-    .cstpc{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 0em;
-      margin-left: 20px;
-  }
-  
-  .box22 h5{
-      margin: 0px;
-      font-size: 50px;
-  }
-  
-  .box22 h4{
-      border: solid 2px brown;
-      margin-right: 250px;
-      padding: 15px;
-  }
-  
-  .box22 h3{
-     color: black;
-  }
-  
-  .box22 h2{
-      color: green;
-   }
-  
-  #castpics{
-      border: solid 2px black;
-      width: 190px;
-      height: 210px;
-  }
-
-  #castpics{
-    height: 120px;
-    width: 100px;
-}
-
-
-.box22 h4{
-    margin-right: 0px;
-}
-
-.box22 p{
-    margin-right: 0px;
-}
-
-.box22 h2{
-    font-size: 20px;
- }
-
- .cstpc{
-     margin-left: 20px;
- }
-
- .cstpc h5{
-     font-size: 15px;
- }
-
-.cach{
-   margin-right: 300px;
- }
-
- .content{
-    font-size: 25px;
-    color: green;
-    margin-left: 10px;
- }
-
- .box6 h3{
-    margin-left: 140px;
-    font-size: 18px;
- } 
-
- .box6 p{
-     font-size: 17px;
-     margin-right: 400px;
- }
-
- .nav{
-     padding: 7px;
-    margin-left: 0px;
-    display: block;
-    width: 70%;
-}
-
-.nav img{
-    margin-right: 470px;
-    width: 60px;
-}
-
-#nav-icon{
-    
-    font-size: 37px;
-}
-
-.heading{
-    position: absolute;
-    display: none;
-    margin-left: 800px;
-}
-
-.heading img{
-    display: none;
-}
-
-.heading > div{
-    display: block;
-    text-align: center;
-  
-}
-
-.heading > div a{
-  padding: 5px;
-  float: left;
-  font-size: 13px;
-}
-
-.active{
-    display: block;
-}
-
-.about .geners .services .countries .home{
-    display: none;
-}
-
-.item{
-  text-align: center;
-  margin-left: 200px;
-}
-
-.nav ul li{
-  
-  margin-top: 55px;
-  height: 20px;
-  font-size: 15px;
- 
-}
-
-/* .multi-level{
-    margin-left: 100px;
-} */
-
-
+   
 }
