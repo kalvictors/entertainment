@@ -1,2 +1,0 @@
-# entertainment
-my entertainment site

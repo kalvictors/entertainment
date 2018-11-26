@@ -75,10 +75,48 @@
         /* padding-right: 2000px; */
     }
 
-    .box22{
-        margin-left: 10px;
-        margin-right: 300px;
+    .desc{
+        margin-right: 290px;
     }
+
+    .interwrap{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: (100px, auto);
+        grid-template-areas:  
+        'box22'
+        'box11'
+        'box33'
+        'box44'
+    }
+
+    .box11{
+        grid-area: box11;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 400px;
+    }
+
+    
+    .box22{
+        grid-area: box22;
+        width: 400px;
+        display: block;
+        text-align: center;
+        background-color: beige;
+    }
+    
+    .box33{
+        grid-area: box33;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 400px;
+    }
+    
+    .box44{
+        grid-area: box44;
+    }
+    
     
     .box5{
         grid-area: box5;
@@ -117,6 +155,14 @@
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 0em;
       margin-left: 20px;
+  }
+
+  .serve{
+      display: none;
+  }
+
+  .wrapper{
+      display: none;
   }
   
   .box22 h5{
@@ -335,10 +381,36 @@
         /* padding-right: 2000px; */
     }
 
+    .desc{
+        margin-right: 280px;
+    }
+
+
     .box22{
+        width: 340px;
         margin-left: 10px;
         margin-right: 300px;
     }
+
+    .box11{
+        width: 350px;
+        height: 120px;
+    }
+
+    .box33{
+        grid-auto-rows: 120px;
+        width: 350px;
+        height: 120px;
+    }
+
+    .box11 img{
+        height: 120px;
+    }
+    
+    .box33 img{
+        height: 120px;
+    }
+
     
     .box5{
         grid-area: box5;

@@ -597,11 +597,11 @@
   .nav{
     margin: 5px;
       display: block;
-      width: 60%;
+      width: 50%;
   }
 
   .nav img{
-    margin-right: 190px;
+    margin-right: 100px;
 }
 
 #nav-icon{
@@ -640,7 +640,7 @@
 
   .item{
     text-align: center;
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 .nav ul li{
