@@ -340,7 +340,10 @@ h5{
     color: red;
 }
 
-
+.logo{
+    height: 60px;
+    width: 260px;
+}
 /* .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1s;
@@ -474,3 +477,29 @@ label a{
 #nav-icon{
     bottom: 45px;
 }
+
+.cont2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.cont2 hr{
+    width: 50%;
+    margin-left: 120px;
+}
+
+.contacts h5{
+    color: khaki;
+}
+
+.linkson{
+    padding: 10px;
+    font-size: 40px;
+    margin-left: 250px;
+}
+
+.social a{
+    margin: 50px;
+}
+
