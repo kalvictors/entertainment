@@ -30,8 +30,8 @@
 
     .wrapper{
         grid-auto-rows: 180px;
-        margin-left: 385px;
-        margin-right: 380px;
+        margin-left: 378px;
+        margin-right: 378px;
        }
 
        .wrapper > div{
@@ -199,8 +199,8 @@
   .tit{
       font-size: 20px;
       padding: 7px;
-    margin-left: 520px;
-    margin-right: 520px;
+    margin-left: 514px;
+    margin-right: 512px;
   }
 
 
@@ -269,11 +269,11 @@
   .nav{
     margin-left: 0px;
     display: block;
-    width: 60%;
+    width: 64%;
 }
 
 .nav img{
-    margin-right: 270px;
+    margin-right: 320px;
     
 }
 
@@ -662,7 +662,6 @@
 
   .item{
     text-align: center;
-    margin-left: 400px;
 }
 
 .nav ul li{
@@ -748,8 +747,8 @@ li:hover{
     .wrapper{
         grid-auto-rows: 150px;
        
-        margin-left: 280px;
-        margin-right: 45px;
+        margin-left: 267px;
+        margin-right: 25px;
        }
 
        .wrapper > div{
@@ -915,8 +914,8 @@ li:hover{
   .tit{
     font-size: 15px;
     padding: 5px;
-    margin-left: 283px;
-    margin-right: 275px;
+    margin-left: 268px;
+    margin-right: 268px;
   }
 
 
@@ -986,9 +985,6 @@ li:hover{
       width: 65%;
   }
 
-  .nav img{
-    margin-right: 230px;
-}
 
 #nav-icon{
     margin-right: 800px;

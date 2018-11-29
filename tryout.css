@@ -425,7 +425,7 @@ label a{
 }
 
 .nav{
-    width: 85%;
+    width: 100%;
     background-color: black;
     text-align: right ;
     box-sizing: border-box;
