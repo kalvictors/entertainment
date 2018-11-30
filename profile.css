@@ -1,0 +1,4 @@
+.names{
+    display: inline;
+    grid-auto-columns: 1fr 1fr;
+}

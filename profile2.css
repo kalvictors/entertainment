@@ -78,6 +78,7 @@
     .box22{
         margin-left: 10px;
         margin-right: 300px;
+        padding: 5px;
     }
     
     .box5{
@@ -250,6 +251,68 @@
  
 }
 
+.cstpc4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0em;
+   
+}
+
+.cstpc0{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.cstpc1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+}
+
+.cast3{
+    display: none;
+}
+
+.box4 h1{
+    margin-right: 300px;
+    font-size: 25;
+}
+
+.cstpc2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  
+}
+
+input{
+        width: 170px;
+        height: 30px;
+ }
+
+ .cstpc0 input{
+     width: 15px;
+ }
+
+ .full{
+     width: 380px;
+     border: none;
+ }
+
+ .box22{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   
+}
+
+
+
+.full button{
+    margin-left: 10px;
+    padding: 5px;
+}
+
+
 /* .multi-level{
     margin-left: 100px;
 } */
@@ -338,6 +401,7 @@
     .box22{
         margin-left: 10px;
         margin-right: 300px;
+        
     }
 
     .box22
@@ -508,6 +572,40 @@
   height: 20px;
   font-size: 15px;
  
+}
+
+.box4 h1{
+    font-size: 20px;
+}
+
+input{
+    width: 143px;
+    height: 20px;
+}
+
+.cstpc0 input{
+ width: 15px;
+}
+
+.full{
+ width: 300px;
+ border: none;
+}
+
+.box22{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+
+}
+
+#yourceleb{
+    margin-left: 10px;
+    margin-right: 70px;
+}
+
+.full button{
+margin-left: 10px;
+padding: 5px;
 }
 
 /* .multi-level{

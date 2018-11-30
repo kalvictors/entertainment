@@ -50,7 +50,7 @@ hr{
 
 .box3{
     grid-area: box3;
-    width: 300px;
+    width: 325px;
 }
 
 .box4{
@@ -111,8 +111,6 @@ hr{
    
 }
 
-
-
 .box22{
     padding: 10px;
     background-color: beige;
@@ -151,7 +149,7 @@ hr{
 
 .heading{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-gap: 1em;
     cursor: pointer;
     padding: 15px;
@@ -167,6 +165,15 @@ hr{
     margin: 5px;
     padding-top: 7px;
     height: 20px;
+}
+
+.container{
+    align-self: flex-start;
+}
+
+.container input{
+    height: 15px;
+    padding: 3px;
 }
 
 .services:hover{
@@ -300,10 +307,7 @@ input{
     margin: 10px;
 }
 
-.box22 > form{
-    display: inline-block;
-   margin-top: 50px;
-}
+
 
 #indown{
     color: red;
@@ -412,30 +416,34 @@ input{
       border: solid 2px brown;
   }
 
-  .cstpc{
+  .cstpc4{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0em;
-    margin-left: 20px;
+   
 }
 
-.box22 h5{
-    margin: 0px;
+.cstpc0{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0em;
+   text-align: center;
 }
 
-.box22 h4{
-    border: solid 2px brown;
-    margin-right: 250px;
-    padding: 15px;
+.cstpc1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0em;
+   
 }
 
-.box22 h3{
-   color: black;
+.cstpc2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0em;
+ 
 }
 
-.box22 h2{
-    color: green;
- }
 
 #castpics{
     border: solid 2px black;
@@ -529,3 +537,87 @@ label a{
 #nav-icon{
     bottom: 45px;
 }
+
+
+.box22 h5{
+    margin: 0px;
+}
+
+.box22 h4{
+    border: solid 2px brown;
+    margin-right: 250px;
+    padding: 15px;
+}
+
+.box22 h3{
+   color: black;
+}
+
+.box22 h2{
+    color: green;
+ }
+
+.box4 h1{
+    text-align: center;
+    color: tan;
+   
+}
+            .box22 li{
+                color:blue}
+            .box22 .video{
+                align-items:center;
+                }
+
+            
+                .cstpc0 input{
+                    font-size: 10px;
+                }
+
+            .box22 label{
+                margin-left: 10px;
+            }
+            
+            .box22 legend{
+                margin-left: 10px;
+            }
+            
+            .cstpc1 select{
+                margin-left: 10px;
+                width: 50px;
+            }
+
+         legend{
+             font-size: 13px
+         }
+
+         input{
+           
+             height: 20px;
+             width: 80px;
+         }
+
+         .cstpc0 input{
+             width: 10px;
+         }
+
+         .full{
+             width: 330px;
+             border: solid 2px #000;
+             padding-bottom: 5px;
+         }
+       
+         .box22{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 0em;
+           
+        }
+
+        textarea{
+            margin-left: 10px;
+        }
+       
+        .full button{
+            margin-left: 10px;
+            padding: 5px;
+        }
