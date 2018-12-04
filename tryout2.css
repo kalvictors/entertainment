@@ -303,7 +303,7 @@
 }
 
 .item{
-  margin-right: 360px;
+  margin-right: 340px;
   text-align: left;
 }
 
@@ -612,7 +612,7 @@
 }
 
 #nav-icon{
-    right: 150px;
+    right: 100px;
    
 }
 
@@ -633,7 +633,7 @@
 }
 
 .item{
-   margin-left: 60%;
+   margin-left: 65%;
    margin-right: 700px;
     text-align: left;
   }
@@ -668,9 +668,7 @@
       display: none;
   }
 
-  .item{
-    text-align: center;
-}
+
 
 .nav ul li{
     display: block;
@@ -1028,7 +1026,7 @@ li:hover{
 }
 
 #nav-icon{
-    right: 140px;
+    right: 95px;
    
 }
 
@@ -1049,8 +1047,8 @@ li:hover{
 }
 
 .item{
-   margin-left: 63%;
-   margin-right: 700px;
+   margin-left: 68%;
+   margin-right: 680px;
     text-align: left;
   }
 
