@@ -1,0 +1,245 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Kameron', sans-serif;
+    color: black;
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+}
+
+.navbar{
+    padding: .8rem;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+    display: block;
+}
+
+.nav-link{
+    font-size: 1.1em !important;
+}
+
+
+
+.profpic{
+    margin-top: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    display: none;
+}
+
+.heading{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 0.5em;
+    padding: 15px;
+    background-color: black;
+    color: whitesmoke;
+   
+}
+
+.heading > div{
+    text-align: center;
+    padding: 0px;
+    margin: 5px;
+    padding-top: 2px;
+    height: 20px;
+}
+
+.services:hover{
+    background-color: red;
+}
+
+
+ul{
+    background-color: gray;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.countries{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.home{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.services{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.geners{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.about{
+    background-color: blue;
+    cursor: pointer;
+}
+
+ul li{
+    background-color: grey;
+    width: 160px;
+    /* height: 30px; */
+    opacity: .7;
+    text-align: center;
+    line-height: 40px;
+    display: none;
+    padding: 5px;
+}
+
+ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: white;
+}
+
+.services:hover ul li{
+    display: block;
+}
+
+.countries:hover{
+    background-color: red;
+}
+
+.countries:hover ul li{
+    display: block;
+}
+
+.geners:hover{
+    background-color: red;
+}
+
+.geners:hover ul li{
+    display: block;
+}
+
+.about:hover{
+    background-color: red;
+}
+
+.home:hover{
+    background-color: red;
+}
+
+.about:hover ul li{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.search input{
+    height: 10px;
+    padding: 10px;
+}
+
+.search { position: relative; }
+
+
+.navbar .form-control{
+    font-size: 11px;
+    height: 35px;
+    width: 200px;
+}
+
+
+.navbar input { 
+    border-radius: 8px;
+    height: 0.2px;
+    width: 150px;
+    bottom: 1px;
+}
+
+.navbar .fa-search{
+    top: 25.5px;
+    position: absolute;
+  left: 258.5px;
+  font-size: 15px;
+  color: green;
+  border: solid 1px gainsboro;
+  padding: 8.3px;
+}
+
+
+.persinfo li{
+    display: block;
+    background-color: white;
+    color: blue;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.persinfo ul{
+    background-color: white;
+   
+}
+
+.persabout{
+    color: brown;
+    background-color: lightgray;
+    padding: 7px;
+   
+}
+
+a h3{
+    color: blue;
+}
+
+
+
+
+@media (max-width: 992px){
+
+
+   img{
+       max-width: 100%;
+   }
+
+   .sociallink{
+       font-size: 12px;
+   }
+
+   .persabout h2{
+       margin-left: 14px;
+   }
+}
+
+@media (max-width: 768px){
+    .navbar{
+        display: block;
+    }
+ 
+    .heading{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 576px){
+    
+}
+
+

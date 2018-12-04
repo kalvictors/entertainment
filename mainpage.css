@@ -527,6 +527,12 @@
 .item{
   text-align: center;
   margin-left: 130px;
+  height: 25px;
+}
+
+.item ul{
+    height: 20px;
+    margin-right: 100px;
 }
 
 .nav ul li{

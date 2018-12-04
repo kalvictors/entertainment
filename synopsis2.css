@@ -471,6 +471,7 @@
     position: absolute;
     display: none;
     margin-left: 800px;
+    
 }
 
 .heading img{
@@ -487,6 +488,7 @@
   padding: 5px;
   float: left;
   font-size: 13px;
+  
 }
 
 .active{

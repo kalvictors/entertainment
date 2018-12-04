@@ -133,7 +133,6 @@ hr{
 
 
 ul{
-    background-color: gray;
     margin: 0%;
     padding: 0%;
     list-style: none;
@@ -166,7 +165,7 @@ ul{
 
 ul li{
     background-color: grey;
-    width: 160px;
+    
     /* height: 30px; */
     opacity: .7;
     text-align: center;
@@ -371,6 +370,27 @@ h5{
     padding: 3px;
 } */
 
+.search input{
+    height: 10px;
+    padding: 10px;
+}
+
+.search { position: relative; }
+.search input { 
+    border-radius: 8px;
+    height: 0.2px;
+    width: 150px;
+    bottom: 1px;
+}
+.search .fa-search { 
+  position: absolute;
+  left: 153px;
+  font-size: 15px;
+  color: green;
+  border: solid 1px black;
+  padding: 4px;
+}
+
 .container{
     align-self: flex-start;
 }
@@ -420,12 +440,17 @@ label{
     position: relative;
 }
 
-label a{
+.nav label a{
     color: blue;
 }
 
+.nav .item a{
+    font-size: 18px;
+}
+
 .nav{
-    width: 100%;
+    width: 50%;
+    padding: 0px;
     background-color: black;
     text-align: right ;
     box-sizing: border-box;
@@ -440,42 +465,81 @@ label a{
 .multi-level{
     color: blue;
     line-height: 30px;
-    
 }
 
 .multi-level label{
     background-color: white;
-    bottom: 45px;
+    bottom: 77px;
 }
 
 .nav ul li{
     display: block;
     color: blue;
     opacity: 5px;
+    text-align: left;
+    height: 30px;
 }
 
 .nav img{
-    margin-right: 265px;
-    
+    margin-left: 118%;
+    position: relative;
+    bottom: 35px;
 }
 
 .nav ul li li{
     font-size: 20px;
 }
 
+.nav .form-control{
+    margin-left: 90%;
+    font-size: 11px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+
+.nav input { 
+    border-radius: 8px;
+    height: 0.2px;
+    width: 150px;
+    bottom: 1px;
+}
+
+.nav .fa-search{
+    top: 13px;
+    position: absolute;
+  left: 262px;
+  font-size: 15px;
+  color: green;
+  border: solid 1px gainsboro;
+  padding: 4px;
+}
+
 .item{
     font-size: 15px;
-    margin-left: 1000px;
- 
+    margin-left: 515px;
+    margin-right: 850px;
+    text-align: left;
+    height: 30px;
+    width: 90px;
+}
+
+.item ul{
+    margin-left: 84%;
+}
+
+.item ul{
+    font-size: 45px;
 }
 
 .nav ul li a{
     font-size: 10px;
-    
 }
  
 #nav-icon{
-    bottom: 45px;
+    right: 22%;
+    bottom: 75px;
+    
 }
 
 .cont2{
@@ -497,6 +561,10 @@ label a{
     padding: 10px;
     font-size: 40px;
     margin-left: 250px;
+}
+
+.social a{
+    margin: 60px;
 }
 
 .fa-facebook-square{

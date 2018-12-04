@@ -267,18 +267,8 @@
   }
 
   .nav{
-    margin-left: 0px;
     display: block;
-    width: 64%;
-}
-
-.nav img{
-    margin-right: 320px;
     
-}
-
-#nav-icon{
-    margin-right: 1000px;
 }
 
 
@@ -313,16 +303,16 @@
 }
 
 .item{
-  text-align: center;
-  margin-left: 680px;
+  margin-right: 360px;
+  text-align: left;
 }
 
+
 .nav ul li{
-  
-  margin-top: 55px;
+  margin-left: 10px;
   height: 20px;
   font-size: 15px;
- 
+  width: 70px;
 }
 
 .cont2{
@@ -616,19 +606,37 @@
     
   }
 
-  .nav{
-    margin: 5px;
-      display: block;
-      width: 65%;
-  }
-
   .nav img{
-    margin-right: 230px;
+    margin-left: 125%;
+   
 }
 
 #nav-icon{
-    margin-right: 800px;
+    right: 150px;
+   
 }
+
+.nav .form-control{
+   margin-left: 80%;
+}
+
+
+
+.nav .fa-search{
+    top: 13.2px;
+    position: absolute;
+  left: 232px;
+  font-size: 15px;
+  color: green;
+  border: solid 1px black;
+  padding: 5px;
+}
+
+.item{
+   margin-left: 60%;
+   margin-right: 700px;
+    text-align: left;
+  }
 
   .heading{
       position: absolute;
@@ -979,16 +987,9 @@ li:hover{
     
   }
 
-  .nav{
-    margin: 5px;
-      display: block;
-      width: 65%;
-  }
+ 
 
 
-#nav-icon{
-    margin-right: 800px;
-}
 
   .heading{
       position: absolute;
@@ -1020,16 +1021,39 @@ li:hover{
       display: none;
   }
 
-  .item{
-    text-align: center;
-    margin-left: 400px;
+
+  .nav img{
+    margin-left: 123%;
+   
 }
 
-.nav ul li{
-    display: block;
-    font-size: 15px;
- 
+#nav-icon{
+    right: 140px;
+   
 }
+
+.nav .form-control{
+   margin-left: 81%;
+}
+
+
+
+.nav .fa-search{
+    top: 13.2px;
+    position: absolute;
+  left: 225px;
+  font-size: 15px;
+  color: green;
+  border: solid 1px black;
+  padding: 5px;
+}
+
+.item{
+   margin-left: 63%;
+   margin-right: 700px;
+    text-align: left;
+  }
+
 
 
 .cont2 hr{
