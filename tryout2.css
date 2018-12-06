@@ -52,7 +52,7 @@
              background-color:black;
          }
 
-    .box2 > div{
+    .box2 > div{     
         margin-left: 195px;
         margin-right: 120px;
         padding-left: 10px;
@@ -128,7 +128,7 @@
     ul li{
         text-align: center;
     }
-    
+   
 
     video{
         max-width: 100%;
@@ -167,13 +167,7 @@
       margin-left: 570px;
     }
 
-  /* .box3{
-    margin-left: -300px;
-    margin-right: -350px;
-      
-  } */
-
-
+  
   .box3 h4{
       margin-left: 520px;
       font-size: 25px;
@@ -245,7 +239,7 @@
   #adv{
       margin-left: 100px;
   }
-
+ 
   #comp{
       margin-left: 565px;
       margin-right: 410px;
@@ -263,12 +257,10 @@
   .box4 button{
       margin-left: 600px;
      margin-right: 600px;
-    
   }
 
   .nav{
     display: block;
-    
 }
 
 
@@ -330,13 +322,15 @@
     padding: 0;
     font-size: 25px;
     margin-left: 580px;
-
 }
 
 .social a{
-    margin: 10px;
+    margin: 10px;  
 }
 
+#myBtn{
+    display: block;
+}
 
 }
 
@@ -1026,7 +1020,7 @@ li:hover{
 }
 
 #nav-icon{
-    right: 95px;
+    right: 125px;
    
 }
 
@@ -1047,7 +1041,7 @@ li:hover{
 }
 
 .item{
-   margin-left: 68%;
+   margin-left: 66%;
    margin-right: 680px;
     text-align: left;
   }

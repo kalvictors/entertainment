@@ -691,8 +691,8 @@ padding-right: 95px;
         position: static;
         overflow: hidden;
     }
-    padding-left: 15px;
-}
+
+
 
     p{
         font-size: 5px;
@@ -736,6 +736,7 @@ padding-right: 95px;
         'box4'
         'box5'
     }
+
     .heading {
         cursor: pointer;
     }
@@ -759,15 +760,6 @@ padding-right: 95px;
         font-size: 2px;
     }
     
-
-    /* .menu{
-        width: 50%;
-       margin-left: 500px;
-    } */
-
-    /* .active{
-        display: block;
-    } */
 
     ul{
         width: 100%;
@@ -793,7 +785,6 @@ padding-right: 95px;
     }
 
     .indisplay > div{
-        /* height: 150px; */
         margin-right: 15%;
        
     }
