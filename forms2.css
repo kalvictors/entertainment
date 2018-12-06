@@ -302,20 +302,24 @@
     text-align: center;
 }
 
+.cont2 h5{
+    margin-right: 365px;
+}
+
 .cont2 hr{
     width: 15%;
-    margin-left: 600px;
+    margin-left: 150px;
 }
 
 .linkson{
     padding: 0;
     font-size: 25px;
-    margin-left: 580px;
+    margin-left: 45px;
 
 }
 
 .social a{
-    margin: 10px;
+    margin: 17px;
 }
 
 
@@ -621,7 +625,7 @@
 
 .cont2 hr{
     width: 15%;
-    margin-left: 120px;
+    margin-left: 110px;
 }
 
 .linkson{
@@ -633,6 +637,10 @@
 
 .social a{
     margin: 10px;
+}
+
+.down p{
+    margin-right: 450px;
 }
 
 /* .multi-level{
