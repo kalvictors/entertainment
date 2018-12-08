@@ -341,8 +341,8 @@
  
  .nav .fa-search{
      padding: 3.5px;
-     left: 293px;
-     top: 14.5px;
+     left: 289px;
+     top: 12.4px;
  }
 
   /* .active{
@@ -705,8 +705,7 @@
  
  .nav .fa-search{
      padding: 3.5px;
-     left: 257.3px;
-     top: 14.5px;
+     left: 254.5px;
  }
 
 
@@ -752,7 +751,6 @@
 @media(max-width: 580px){
 
     .body{
-      
             margin: 0px;
             padding: 0px;
             width: 100%;

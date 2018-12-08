@@ -559,7 +559,6 @@
   .nav .fa-search{
       padding: 3.5px;
       left: 248px;
-      top: 11.5px;
   }
 
 .heading{
@@ -595,13 +594,6 @@
 }
 
 
-.nav ul li{
-  
-  margin-top: 55px;
-  height: 20px;
-  font-size: 15px;
- 
-}
 
 .cont2{
     display: grid;
