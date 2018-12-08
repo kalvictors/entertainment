@@ -42,15 +42,9 @@
     
     .box2{
         grid-area: box2;
-        height: 100px;
  
     }
-       
-    .box2 > div{
-             margin-left: 5px;
-             margin-right: 0px;
-             padding-left: 0px;
-         }
+    
 
          .slidingimg{
             margin: 5px; 
@@ -95,16 +89,22 @@
             }
             
 
-        .box2{
+            .box2{
+                padding-left: 10px;
+                padding-right: 10px;
+                 height: 110px;
+             }
            
-             height: 110px;
-         }
-
-    .box2 > div{
-     
-        margin-right: 10px;
-       
-    }
+             .box2 > div{
+                 margin-left: -18px;
+                 margin-right: 70px;
+                 padding-left: 10px;
+             }
+               
+               .topper > div img{
+                     height: 90px;
+                     width: 69.5px;
+               }
         
         .slidingimg > div{
             background-color: gray;
@@ -204,7 +204,7 @@
   
     .box4 button{
         margin-left: 100px;
-       margin-right: 700px;
+       margin-right: 100px;
       
     }
 
@@ -233,9 +233,7 @@
        display: none;
    }
 
-   .topper{
-       display: none;
-   }
+   
 
    .tit{
        margin-right: 154px;
@@ -250,7 +248,7 @@
 }
 
 .nav img{
-   margin-right: 470px;
+   margin-right: 450px;
    width: 60px;
 }
 
@@ -282,7 +280,7 @@
  }
 
  .nav .form-control{
-   margin-left: 33%;
+   margin-left: 31%;
    font-size: 11px;
    height: 20px;
    margin-top: 3px;
@@ -290,7 +288,7 @@
  
  .nav .fa-search{
      padding: 3.5px;
-     left: 288.5px;
+     left: 278.5px;
      top: 10.5px;
  }
 
@@ -446,17 +444,9 @@
             color: white;
         }
 
-        .box2{
-           
-             height: 100px;
-            
-         }
-
-    .box2 > div{
-     
-        margin-right: 10px;
        
-    }
+       
+
         
         .slidingimg > div{
             background-color: gray;
@@ -478,6 +468,23 @@
             width: 60px;
         }
     
+
+        .box2{
+            padding-left: 10px;
+            padding-right: 10px;
+             height: 110px;
+         }
+       
+         .box2 > div{
+             margin-left: -18px;
+             margin-right: 50px;
+             padding-left: 10px;
+         }
+           
+           .topper > div img{
+                 height: 85px;
+                 width: 61px;
+           }
     
     .box3{
         grid-auto-rows: 100px;
@@ -551,7 +558,7 @@
   
     .box4 button{
         margin-left: 80px;
-       margin-right: 710px;
+       margin-right: 80px;
       
     }
 
@@ -580,9 +587,6 @@
        display: none;
    }
 
-   .topper{
-       display: none;
-   }
 
    .tit{
        margin-left: 11px;

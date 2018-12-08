@@ -275,7 +275,7 @@
 }
 
 .heading > div{
-    display: block;
+    display: none;
     text-align: center;
   
 }
@@ -307,6 +307,26 @@
   width: 70px;
 }
 
+.nav input { 
+    border-radius: 5px;
+    height: 0.3px;
+    width: 195px;
+    padding-right: 20px;
+}
+
+.nav .form-control{
+    margin-left: 84%;
+    font-size: 11px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.nav .fa-search{
+    padding: 3.5px;
+    left: 283.5px;
+    top: 14.5px;
+}
+
 .cont2{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -330,6 +350,8 @@
 
 #myBtn{
     display: block;
+    padding: 5px;
+    font-size: 15px;
 }
 
 }
@@ -606,7 +628,7 @@
 }
 
 #nav-icon{
-    right: 100px;
+    right: 130px;
    
 }
 
@@ -619,7 +641,7 @@
 .nav .fa-search{
     top: 13.2px;
     position: absolute;
-  left: 232px;
+  left: 251px;
   font-size: 15px;
   color: green;
   border: solid 1px black;
@@ -979,10 +1001,6 @@ li:hover{
     
   }
 
- 
-
-
-
   .heading{
       position: absolute;
       display: none;
@@ -996,7 +1014,6 @@ li:hover{
   .heading > div{
       display: block;
       text-align: center;
-    
   }
 
   .heading > div a{
@@ -1024,21 +1041,28 @@ li:hover{
    
 }
 
-.nav .form-control{
-   margin-left: 81%;
+.nav input{
+    width: 170px;
 }
 
+.nav .form-control{
+    margin-left: 76%;
+    font-size: 11px;
+    height: 20px;
+    margin-top: 10px;
+}
 
 
 .nav .fa-search{
     top: 13.2px;
     position: absolute;
-  left: 225px;
+  left: 245px;
   font-size: 15px;
   color: green;
   border: solid 1px black;
   padding: 5px;
 }
+
 
 .item{
    margin-left: 66%;
@@ -1064,6 +1088,11 @@ li:hover{
     margin: 10px;
 }
 
+
+#myBtn{
+    padding: 3px;
+    font-size: 15px;
+}
   /* .menu{
      margin-right: 200px;
   }

@@ -9,11 +9,108 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="service1.css">
+    <link rel="stylesheet" href="countmain.css">
 </head>
 
 <body>
     <div class="cont">
         <div class="box1 tap">
+
+                <div class="nav">
+
+
+                        <input type="checkbox" id="menu">
+                        <span class="fa fa-search"></span>
+        
+                        <input type="text" class="form-control" placeholder="Search" name="Search">
+        
+                        <img src="try.png" width="70px" height="40px">
+        
+                        <label for="menu" id="nav-icon"><i class="fa fa-bars menu" aria-hidden="true"></i></label>
+        
+        
+        
+                        <div class="multi-level">
+                            <div class="item">
+                                <input type="checkbox" id="A">
+                                <label for="A"><a href="index.html">HOME</a></label>
+        
+                            </div>
+        
+                            <div class="item">
+                                <input type="checkbox" id="B">
+                                <label for="B">SERVICES</label>
+                                <ul>
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-A/">
+                                            <label for="B-A/"><a href="movies.html"> movies</a></label>
+        
+                                        </div>
+                                    </li>
+        
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-B/">
+                                            <label for="B-B/"><a href="music.html"> music</a></label>
+        
+                                        </div>
+                                    </li>
+        
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-B-A/">
+                                            <label for="B-B-A/"><a href="books.html">books</a></label>
+                                        </div>
+                                    </li>
+        
+        
+                                </ul>
+        
+                            </div>
+        
+                            <div class="item">
+                                <input type="checkbox" id="C">
+                                <label for="C">ABOUT US</label>
+                                <ul>
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-A/">
+                                            <label for="B-A/">offices</label>
+        
+                                        </div>
+                                    </li>
+        
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-B/">
+                                            <label for="B-B/">contacts</label>
+        
+                                        </div>
+                                    </li>
+        
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-B-A/">
+                                            <label for="B-B-A/">FAQ</label>
+                                        </div>
+                                    </li>
+        
+        
+                                </ul>
+        
+        
+                            </div>
+                            <div class="item">
+        
+                                <input type="checkbox" id="A">
+                                <label for="A">HELP</label>
+                            </div>
+                        </div>
+        
+        
+                    </div>
+
             <div class="heading">
                 <img src="try.png" width="70px" height="40px">
                 <div class="rol home"><a href="tryout.html"><b>HOME</b></a></div>
@@ -304,7 +401,7 @@
             <hr>
             <h4 class="content">WE MEAN IT ALL</h4>
             <hr>
-            <p>
+            <p id="onit">
                 Catch the latest Movies, Music, Books, Entertainment News, Celebrity Gossip, Business News, Fashion and
                 Sport on Zal Point, bringing you the best in Entertainment. ... the latest breaking news and videos
                 straight from the
@@ -556,6 +653,8 @@
             </div>
             </div>
         </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
         <script src="tryouts.js">
 

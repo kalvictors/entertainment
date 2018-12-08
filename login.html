@@ -19,9 +19,17 @@
 
                 <div class="nav">
 
-                        <img src="try.png" width="70px" height="40px">
+
                         <input type="checkbox" id="menu">
-                        <label for="menu" id="nav-icon">&#9776;</label>
+                        <span class="fa fa-search"></span>
+        
+                        <input type="text" class="form-control" placeholder="Search" name="Search">
+        
+                        <img src="try.png" width="70px" height="40px">
+        
+                        <label for="menu" id="nav-icon"><i class="fa fa-bars menu" aria-hidden="true"></i></label>
+        
+        
         
                         <div class="multi-level">
                             <div class="item">
@@ -33,38 +41,65 @@
                             <div class="item">
                                 <input type="checkbox" id="B">
                                 <label for="B">SERVICES</label>
-                                <!-- <ul>
-                                        <li>
-                                            <div class="sub-item">
-                                                <input type="checkbox" id="B-A/">
-                                               <label for="B-A/">MOVIES</label>
-                                                
-                                            </div>
-                                        </li>
-                    
-                                        <li>
-                                            <div class="sub-item">
-                                                <input type="checkbox" id="B-B/">
-                                               <label for="B-B/">MUSIC</label>
-                                                
-                                            </div>
-                                        </li>
-                    
-                                        <li>
-                                            <div class="sub-item">
-                                                <input type="checkbox" id="B-B-A/">
-                                                <label for="B-B-A/">BOOKS</label>
-                                            </div>
-                                        </li>
-                    
-                    
-                                    </ul> -->
+                                <ul>
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-A/">
+                                            <label for="B-A/"><a href="movies.html"> movies</a></label>
+        
+                                        </div>
+                                    </li>
+        
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-B/">
+                                            <label for="B-B/"><a href="music.html"> music</a></label>
+        
+                                        </div>
+                                    </li>
+        
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-B-A/">
+                                            <label for="B-B-A/"><a href="books.html">books</a></label>
+                                        </div>
+                                    </li>
+        
+        
+                                </ul>
         
                             </div>
         
                             <div class="item">
                                 <input type="checkbox" id="C">
                                 <label for="C">ABOUT US</label>
+                                <ul>
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-A/">
+                                            <label for="B-A/">offices</label>
+        
+                                        </div>
+                                    </li>
+        
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-B/">
+                                            <label for="B-B/">contacts</label>
+        
+                                        </div>
+                                    </li>
+        
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-B-A/">
+                                            <label for="B-B-A/">FAQ</label>
+                                        </div>
+                                    </li>
+        
+        
+                                </ul>
+        
         
                             </div>
                             <div class="item">
@@ -79,7 +114,7 @@
 
             <div class="heading">
                 <img src="try.png" width="70px" height="40px">
-                <div class="rol home"><a href="tryout.html"><b>HOME</b></a></div>
+                <div class="rol home"><a href="index.html"><b>HOME</b></a></div>
                 <div class="rol services"><a><b>SERVICES</b></a>
                     <div>
                         <ul>
@@ -518,6 +553,8 @@
         </div>
 
     </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     
 

@@ -190,6 +190,138 @@ button{
    
 }
 
+
+/*putting a new dropdown responsiveness*/
+.multi-level, .item ul, .nav input[type="checkbox"]{
+    display: none;
+}
+
+#menu:checked ~ .multi-level, .item input:checked ~ ul{
+    display: block;
+}
+
+.arrow{
+    display: none;
+}
+
+.item label:hover{
+    background-color: red;
+
+}
+
+label:hover{
+    cursor: pointer;
+}
+
+label{
+    width: 100%;
+    display: block;
+    z-index: 3;
+    position: relative;
+}
+
+.nav label a{
+    color: blue;
+}
+
+.nav .item a{
+    font-size: 18px;
+}
+
+.nav{
+    width: 50%;
+    padding: 0px;
+    background-color: black;
+    text-align: right ;
+    box-sizing: border-box;
+    color: white;
+    font-size: 25px;
+    display: none;
+    padding: 3px;
+    height: 45px;
+    
+}
+
+.multi-level{
+    color: blue;
+    line-height: 30px;
+}
+
+.multi-level label{
+    background-color: white;
+    bottom: 77px;
+}
+
+.nav ul li{
+    display: block;
+    color: blue;
+    opacity: 5px;
+    text-align: left;
+    height: 30px;
+}
+
+.nav img{
+    margin-left: 118%;
+    position: relative;
+    bottom: 35px;
+}
+
+.nav ul li li{
+    font-size: 20px;
+}
+
+.nav .form-control{
+    margin-left: 90%;
+    font-size: 11px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+
+.nav input { 
+    border-radius: 8px;
+    height: 0.2px;
+    width: 150px;
+    bottom: 1px;
+}
+
+.nav .fa-search{
+    top: 13px;
+    position: absolute;
+  left: 262px;
+  font-size: 15px;
+  color: green;
+  border: solid 1px gainsboro;
+  padding: 4px;
+}
+
+.item{
+    font-size: 15px;
+    margin-left: 515px;
+    margin-right: 850px;
+    text-align: left;
+    height: 30px;
+    width: 90px;
+}
+
+.item ul{
+    margin-left: 84%;
+}
+
+.item ul{
+    font-size: 45px;
+}
+
+.nav ul li a{
+    font-size: 10px;
+}
+ 
+#nav-icon{
+    right: 22%;
+    bottom: 75px;
+    
+}
+
 .cont2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -251,6 +383,27 @@ button{
     animation-name: fade;
     animation-duration: 2s;
   }
+
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
   
   @-webkit-keyframes fade {
     from {opacity: 0} 
@@ -303,6 +456,12 @@ button{
         margin: 5px;
         padding-top: 7px;
         height: 20px;
+    }
+
+    #myBtn{
+        display: block;
+        padding: 5px;
+        font-size: 15px;
     }
     
   }

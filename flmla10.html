@@ -17,9 +17,100 @@
     <div class="cont">
 
         <div class="box1 tap">
-            <div class="toggle">
-                <i class="fa fa-bars menu" aria-hidden="true"></i>
-            </div>
+                <div class="nav">
+
+
+                        <input type="checkbox" id="menu">
+                        <span class="fa fa-search"></span>
+        
+                        <input type="text" class="form-control" placeholder="Search" name="Search">
+        
+                        <img src="try.png" width="70px" height="40px">
+        
+                        <label for="menu" id="nav-icon"><i class="fa fa-bars" aria-hidden="true"></i></label>
+        
+        
+        
+                        <div class="multi-level">
+                            <div class="item">
+                                <input type="checkbox" id="A">
+                                <label for="A"><a href="index.html">HOME</a></label>
+        
+                            </div>
+        
+                            <div class="item">
+                                <input type="checkbox" id="B">
+                                <label for="B">SERVICES</label>
+                                <ul>
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-A/">
+                                            <label for="B-A/"><a href="movies.html"> movies</a></label>
+        
+                                        </div>
+                                    </li>
+        
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-B/">
+                                            <label for="B-B/"><a href="music.html"> music</a></label>
+        
+                                        </div>
+                                    </li>
+        
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-B-A/">
+                                            <label for="B-B-A/"><a href="books.html">books</a></label>
+                                        </div>
+                                    </li>
+        
+        
+                                </ul>
+        
+                            </div>
+        
+                            <div class="item">
+                                <input type="checkbox" id="C">
+                                <label for="C">ABOUT US</label>
+                                <ul>
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-A/">
+                                            <label for="B-A/">offices</label>
+        
+                                        </div>
+                                    </li>
+        
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-B/">
+                                            <label for="B-B/">contacts</label>
+        
+                                        </div>
+                                    </li>
+        
+                                    <li>
+                                        <div class="sub-item">
+                                            <input type="checkbox" id="B-B-A/">
+                                            <label for="B-B-A/">FAQ</label>
+                                        </div>
+                                    </li>
+        
+        
+                                </ul>
+        
+        
+                            </div>
+                            <div class="item">
+        
+                                <input type="checkbox" id="A">
+                                <label for="A">HELP</label>
+                            </div>
+                        </div>
+        
+        
+                    </div>
 
 
 
@@ -508,6 +599,7 @@
         </div>
     </div>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <script src="tryouts.js"> </script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
