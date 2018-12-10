@@ -33,7 +33,7 @@ hr{
 
 .heading{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-gap: 1em;
     cursor: pointer;
     padding: 15px;
@@ -43,13 +43,38 @@ hr{
 }
 
 .heading > div{
-    background-color: blue;
     text-align: center;
     padding: 0px;
     margin: 5px;
     padding-top: 7px;
     height: 20px;
 }
+
+.countries{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.home{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.services{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.geners{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.about{
+    background-color: blue;
+    cursor: pointer;
+}
+
 
 .services:hover{
     background-color: red;
@@ -63,10 +88,8 @@ ul{
     list-style: none;
 }
 
-ul li{
+.heading ul li{
     background-color: grey;
-    width: 200px;
-    height: 30px;
     opacity: .7;
     text-align: center;
     line-height: 40px;
@@ -79,7 +102,7 @@ ul li a{
     text-decoration: none;
 }
 
-li:hover{
+.heading li:hover{
     background-color: white;
 }
 
@@ -190,6 +213,29 @@ button{
    
 }
 
+.search input{
+    height: 10px;
+    padding: 10px;
+}
+
+.search { 
+    position: relative;
+    top: -5px;
+ }
+.search input { 
+    border-radius: 8px;
+    height: 0.2px;
+    width: 150px;
+    bottom: 1px;
+}
+.search .fa-search { 
+  position: absolute;
+  left: 150px;
+  font-size: 15px;
+  color: green;
+  padding: 4px;
+}
+
 
 /*putting a new dropdown responsiveness*/
 .multi-level, .item ul, .nav input[type="checkbox"]{
@@ -286,12 +332,11 @@ label{
 }
 
 .nav .fa-search{
-    top: 13px;
+    top: 14.7px;
     position: absolute;
   left: 262px;
   font-size: 15px;
   color: green;
-  border: solid 1px gainsboro;
   padding: 4px;
 }
 

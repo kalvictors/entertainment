@@ -93,7 +93,7 @@ ul{
     cursor: pointer;
 }
 
-ul li{
+.heading ul li{
     background-color: grey;
     width: 160px;
     /* height: 30px; */
@@ -109,7 +109,7 @@ ul li a{
     text-decoration: none;
 }
 
-li:hover{
+.heading li:hover{
     background-color: white;
 }
 
@@ -179,7 +179,6 @@ a{
   left: 258.5px;
   font-size: 15px;
   color: green;
-  border: solid 1px gainsboro;
   padding: 8.3px;
 }
 

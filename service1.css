@@ -118,8 +118,8 @@ h2{
 
 .heading{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 1em;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 0.5em;
     cursor: pointer;
     padding: 15px;
     background-color: black;
@@ -128,7 +128,6 @@ h2{
 }
 
 .heading > div{
-    background-color: blue;
     text-align: center;
     padding: 0px;
     margin: 5px;
@@ -148,10 +147,8 @@ ul{
     list-style: none;
 }
 
-ul li{
+.heading ul li{
     background-color: grey;
-    width: 200px;
-    height: 30px;
     opacity: .7;
     text-align: center;
     line-height: 40px;
@@ -164,12 +161,37 @@ ul li a{
     text-decoration: none;
 }
 
-li:hover{
+.heading li:hover{
     background-color: white;
 }
 
 .services:hover ul li{
     display: block;
+}
+
+.countries{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.home{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.services{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.geners{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.about{
+    background-color: blue;
+    cursor: pointer;
 }
 
 .countries:hover{
@@ -289,6 +311,30 @@ h5{
 .tit a{
     color: red;
 }
+
+.search input{
+    height: 10px;
+    padding: 10px;
+}
+
+.search { 
+    position: relative;
+    top: -5px;
+ }
+.search input { 
+    border-radius: 8px;
+    height: 0.2px;
+    width: 150px;
+    bottom: 1px;
+}
+.search .fa-search { 
+  position: absolute;
+  left: 153px;
+  font-size: 15px;
+  color: green;
+  padding: 4px;
+}
+
 
 .intitle{
     font-size: 13px;
@@ -546,6 +592,7 @@ label{
     margin-left: 20px;
     height: 25px;
 }
+
 
 #myBtn {
     display: none; /* Hidden by default */

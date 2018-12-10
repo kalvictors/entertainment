@@ -70,6 +70,7 @@ hr{
     
 }
 
+
 .tap{
     background-color: black;
 }
@@ -123,9 +124,10 @@ hr{
     text-align: center;
     padding: 0px;
     margin: 5px;
-    padding-top: 2px;
+    padding-top: 7px;
     height: 20px;
 }
+
 
 .services:hover{
     background-color: red;
@@ -163,7 +165,7 @@ ul{
     cursor: pointer;
 }
 
-ul li{
+.heading ul li{
     background-color: grey;
     
     /* height: 30px; */
@@ -179,7 +181,7 @@ ul li a{
     text-decoration: none;
 }
 
-li:hover{
+.heading li:hover{
     background-color: white;
 }
 
@@ -375,7 +377,11 @@ h5{
     padding: 10px;
 }
 
-.search { position: relative; }
+.search { 
+    position: relative;
+    top: -5px;
+
+}
 .search input { 
     border-radius: 8px;
     height: 0.2px;
@@ -384,10 +390,9 @@ h5{
 }
 .search .fa-search { 
   position: absolute;
-  left: 153px;
+  left: 150px;
   font-size: 15px;
   color: green;
-  border: solid 1px black;
   padding: 4px;
 }
 
@@ -511,7 +516,6 @@ label{
   left: 262px;
   font-size: 15px;
   color: green;
-  border: solid 1px gainsboro;
   padding: 4px;
 }
 
