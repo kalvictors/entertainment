@@ -268,7 +268,7 @@
  
  
  .nav ul li{
-   margin-left: 10px;
+   margin-left: 14px;
    height: 20px;
    font-size: 15px;
    width: 70px;
@@ -354,9 +354,28 @@
     margin: 15px;
 }
 
+.inmore{
+    display: inline-block;
+    padding: 8px 16px;
+    margin-left: 8px;
+    height: 22px;
+}
+
 .down p{
     margin-right: 350px;
 }
+
+.pagesin{
+    display: none;
+}
+
+#divisionline{
+   display: none;
+}
+
+#extraline{
+    display: none;
+ }
 
    
 .fornew {
@@ -557,14 +576,15 @@
 
     .indisplay{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 100px, auto;
         gap: 0px;
         width: 350px;
     }
     
     .indisplay > div{
         margin: 10px;
-        width: 160px;
+        width: 340px;
     }
 
     .box5 h3{
@@ -651,7 +671,7 @@
  
  
  .nav ul li{
-   margin-left: 10px;
+   margin-left: 14px;
    height: 20px;
    font-size: 15px;
    width: 70px;
@@ -718,6 +738,12 @@
     padding: 11px 16px;
 }
 
+.inmore{
+    display: inline-block;
+    padding: 8px 16px;
+    margin-left: 8px;
+    height: 16px;
+}
 
 .next {
     margin-left: 5px;

@@ -191,22 +191,6 @@
      margin-right: 350px;
  }
 
- .nav{
-     padding: 7px;
-    margin-left: 0px;
-    display: block;
-    width: 60%;
-}
-
-.nav img{
-    margin-right: 470px;
-    width: 60px;
-}
-
-#nav-icon{
-    
-    font-size: 37px;
-}
 
 .heading{
     position: absolute;
@@ -230,26 +214,64 @@
   font-size: 13px;
 }
 
-.active{
-    display: block;
-}
 
 .about .geners .services .countries .home{
     display: none;
 }
 
-.item{
-  text-align: center;
-  margin-left: 150px;
+.nav{
+    padding: 7px;
+   margin-left: 0px;
+   display: block;
+   width: 60%;
 }
 
-.nav ul li{
+.nav img{
+   margin-right: 470px;
+   width: 60px;
   
-  margin-top: 55px;
-  height: 20px;
-  font-size: 15px;
- 
 }
+
+#nav-icon{
+   right: 83%;
+   font-size: 30px;
+}
+
+
+.item{
+   margin-right: 340px;
+   margin-left: 20px;
+   text-align: left;
+ }
+ 
+ 
+ .nav ul li{
+   margin-left: 14px;
+   height: 20px;
+   font-size: 15px;
+   width: 70px;
+ }
+ 
+ .nav input { 
+     border-radius: 5px;
+     height: 0.3px;
+     width: 190px;
+     padding-right: 20px;
+ }
+
+ .nav .form-control{
+   margin-left: 33%;
+   font-size: 11px;
+   height: 20px;
+   margin-top: 3px;
+}
+ 
+ .nav .fa-search{
+     padding: 3.5px;
+     left: 288.5px;
+     top: 14.7px;
+ }
+
 
 .cstpc4{
     display: grid;
@@ -554,22 +576,6 @@ input{
      margin-right: 400px;
  }
 
- .nav{
-     padding: 7px;
-    margin-left: 0px;
-    display: block;
-    width: 50%;
-}
-
-.nav img{
-    margin-right: 470px;
-    width: 60px;
-}
-
-#nav-icon{
-    
-    font-size: 37px;
-}
 
 .heading{
     position: absolute;
@@ -593,26 +599,62 @@ input{
   font-size: 13px;
 }
 
-.active{
-    display: block;
-}
-
 .about .geners .services .countries .home{
     display: none;
 }
 
-.item{
-  text-align: center;
-  margin-left: 100px;
+.nav{
+    padding: 7px;
+   margin-left: 0px;
+   display: block;
+   width: 60%;
 }
 
-.nav ul li{
-  
-  margin-top: 55px;
-  height: 20px;
-  font-size: 15px;
- 
+.nav img{
+   margin-right: 410px;
+   width: 60px;
 }
+
+#nav-icon{
+   right: 82%;
+   font-size: 28px;
+}
+
+
+.item{
+   margin-right: 290px;
+   margin-left: 20px;
+   text-align: left;
+ }
+ 
+ 
+ .nav ul li{
+   margin-left: 14px;
+   height: 20px;
+   font-size: 15px;
+   width: 70px;
+ }
+ 
+ .nav input { 
+     border-radius: 5px;
+     height: 0.3px;
+     width: 180px;
+     padding-right: 20px;
+ }
+
+ .nav .form-control{
+   margin-left: 29%;
+   font-size: 11px;
+   height: 20px;
+   margin-top: 3px;
+}
+ 
+ .nav .fa-search{
+     padding: 3.5px;
+     left: 259.4px;
+
+ }
+
 
 .box4 h1{
     font-size: 20px;

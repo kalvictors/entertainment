@@ -644,7 +644,6 @@
   left: 251px;
   font-size: 15px;
   color: green;
-  border: solid 1px black;
   padding: 5px;
 }
 
@@ -687,6 +686,7 @@
 
 
 .nav ul li{
+    margin-left: 14px;
     display: block;
     font-size: 15px;
  
@@ -1059,7 +1059,6 @@ li:hover{
   left: 245px;
   font-size: 15px;
   color: green;
-  border: solid 1px black;
   padding: 5px;
 }
 
