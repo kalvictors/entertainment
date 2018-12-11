@@ -94,6 +94,10 @@ hr{
    
 }
 
+.topper img{
+    width: 157px;
+}
+
 .wrapper{
     margin: 10px; 
     display: grid;

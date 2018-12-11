@@ -81,6 +81,10 @@ hr{
     border: 1px solid black;
 }
 
+.topper img{
+    width: 159px;
+}
+
 .serve{
     display: grid;
     grid-template-columns: repeat(4, 1fr);

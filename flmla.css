@@ -106,6 +106,10 @@ hr{
     margin: 3px;
 }
 
+.topper img{
+    width: 157.5px;
+}
+
 .heading{
     display: grid;
     grid-template-columns: repeat(7, 1fr);

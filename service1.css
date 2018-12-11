@@ -97,6 +97,10 @@ h2{
     color: maroon;
 }
 
+.topper img{
+    width: 156px;
+}
+
 .slidingimg > div{
     display: none;
 }

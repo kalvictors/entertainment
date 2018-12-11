@@ -1,6 +1,6 @@
 body{
-    margin: 30px;
-    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .copyin{
@@ -371,6 +371,7 @@ label{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
+    color: white;
 }
 
 .cont2 hr{
@@ -386,6 +387,10 @@ label{
     padding: 10px;
     font-size: 40px;
     margin-left: 250px;
+}
+
+.down{
+    color: white;
 }
 
 .social a{
