@@ -91,10 +91,12 @@ h2{
     cursor: pointer;
     display: inline;
     margin: 2px;
+    max-width: 90px;
 }
 
 .topper a{
     color: maroon;
+    
 }
 
 .topper img{
@@ -485,7 +487,7 @@ label{
 .item{
     font-size: 15px;
     margin-left: 515px;
-    margin-right: 850px;
+    /* margin-right: 850px; */
     text-align: left;
     height: 30px;
     width: 90px;
@@ -567,7 +569,7 @@ label{
     height: 25px;
     text-decoration: none;
     display: none;
-    padding: 8px 16px;
+    padding: 5px;
     margin-left: 300px;
     text-align: center;
 }

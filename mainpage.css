@@ -358,7 +358,8 @@
     display: inline-block;
     padding: 8px 16px;
     margin-left: 8px;
-    height: 22px;
+    height: 21px;
+    padding-top: 12px;
 }
 
 .down p{
@@ -379,21 +380,24 @@
 
    
 .fornew {
-    font-size: 13px;
-    width: 60px;
-    height: 20px;
-    margin-left: 26px;
+    font-size: 15px;
+    width: 90px;
+    height: 40px;
+    margin-left: 40px;
+    size: 7px;
 }
 
 
 .next {
     margin-left: 8px;
+    width: 70px;
 }
 
 .lspages{
     margin-left: 8px;
     height: 21px;
 }
+
 
 #myBtn{
     display: block;
@@ -731,22 +735,25 @@
 }
 
 .fornew {
-    font-size: 11px;
-    width: 47px;
-    height: 9px;
-    margin-left: 22px;
-    padding: 11px 16px;
+    font-size: 12px;
+    width: 70px;
+    height: 35px;
+    margin-left: 27px;
+    size: 4px;
 }
 
 .inmore{
     display: inline-block;
     padding: 8px 16px;
     margin-left: 8px;
-    height: 16px;
+    height: 17px;
+    padding-top: 12px;
 }
 
+
 .next {
-    margin-left: 5px;
+    margin-left: 8px;
+    width: 70px;
 }
 
 .lspages{
