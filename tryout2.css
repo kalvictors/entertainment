@@ -1,3 +1,726 @@
+@media(max-width: 768px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 5px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper{
+        grid-auto-rows: 180px;
+        margin-left: 215px;
+        margin-right: 185px;
+       }
+
+       .wrapper > div{
+          background-color: lightseagreen;
+          margin-right: 8px;
+          margin-left: -8px;
+          width: 100%;
+       } 
+    
+       
+        .wrapper img{
+            height: 150px;
+            width: 100%;
+          
+        }
+
+    .box2{
+            padding-left: 295px;
+            padding-right: 100px;
+             height: 130px;
+             background-color:black;
+         }
+
+    .box2 > div{     
+        margin-left: -95px;
+        margin-right: 150px;
+       
+    }
+        
+        .topper > div img{
+            height: 120px;
+            width: 82px;
+        }
+
+    
+    .cont{
+       
+        grid-gap: 0%;
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+
+    .box1{
+        margin: 0%;
+    }
+
+
+    .onvd h3{
+      margin-left: 80px;
+    }
+
+    .onvd{
+      margin-left: 180px;
+      margin-right: 180px;
+      padding-left: 15px;
+    }
+
+    #defin{
+     font-size: 17px;
+      margin-left: 1px;
+      margin-right: 15px;
+      padding-left: 15px;
+    }
+
+    .intitle{
+        font-size: 11px;
+    }
+
+    .intype1{
+        font-size: 14px;
+        margin-left: 80px;
+        bottom: 47px;
+        height: 22px;
+    }
+
+    .intype{
+        font-size: 11px;
+        bottom: 47px;
+        height: 20px;
+    } 
+  
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+   
+
+    video{
+        max-width: 100%;
+    }
+
+   
+   
+  .indisplay > div{
+       
+      display: none;
+  }
+
+
+    .displaypic{
+        height: 110px;
+        width: 100%;
+    }
+
+    .news > div{
+       
+        background-color: black;
+    }
+  
+
+    .news > div img{
+        padding: 3px;
+      margin-left: 300px;
+    }
+
+    .box4 > div video{
+        padding: 20px;
+      margin-left: 220px;
+      width: 600px;
+    }
+
+    .box4 img{
+        width: 500px;
+    }
+
+    .newspic{
+        width: 500px;
+        height: 400px;
+    }
+
+  
+  .box3 h4{
+      margin-left: 203px;
+      font-size: 25px;
+  }
+
+  .box3 p{
+     font-size: 20px;
+    margin-left: 185px;
+    margin-right: 400px;
+    padding-left: 15px;
+  }
+
+  
+  .box5 h3{
+     margin-left: 670px;
+     font-size: 18px;
+  } 
+
+  .box5 p{
+      font-size: 17px;
+  }
+
+  .tit{
+      font-size: 20px;
+      padding: 7px;
+    margin-left: 208px;
+    margin-right: 193px;
+  }
+
+
+  
+  #lstp{
+      font-size: 14px;
+      margin-left: 185px;
+      margin-right: 400px;
+      padding-left: 15px;
+
+  }
+
+  #uptp{
+      font-size: 16px;
+      margin-left: 180px;
+      margin-right: 220px;
+      padding-left: 15px;
+
+  }
+
+  #dstp{
+      color: white;
+      font-size: 16px;
+      margin-left: 170px;
+      margin-right: 400px;
+      padding-left: 20px;
+
+  }
+
+  .clbm{
+    margin-left: 90px;
+    margin-right: 90px;
+      font-size: 14px;
+  }
+
+  .box4 h3{
+      font-size: 24px;
+      margin-left: 200px;
+  }
+
+
+  #adv{
+      margin-left: 100px;
+  }
+ 
+  #comp{
+      margin-left: 350px;
+      margin-right: 350px;
+      height: 140px;
+      width: 410px;
+  }
+
+  
+  
+  #yourceleb{
+      margin-left: 200px;
+     margin-right: 200px;
+     font-size: 20px;
+  }
+
+  .box4 button{
+      font-size: 17px;
+      margin-left: 400px;
+     margin-right: 400px;
+  }
+
+  .nav{
+    display: none;
+}
+
+
+.heading{
+   margin-left: 190px;
+    margin-right: 190px;
+    font-size: 13px;
+}
+
+
+.heading > div{
+    text-align: center;
+}
+
+.heading > div a{
+  padding: 0px;
+}
+
+.active{
+    display: block;
+}
+
+.about .geners .services .countries .home{
+    display: none;
+}
+
+.item{
+  margin-right: 340px;
+  text-align: left;
+}
+
+
+.nav ul li{
+  margin-left: 10px;
+  height: 20px;
+  font-size: 15px;
+  width: 70px;
+}
+
+.nav input { 
+    border-radius: 5px;
+    height: 0.3px;
+    width: 195px;
+    padding-right: 20px;
+}
+
+.nav .form-control{
+    margin-left: 84%;
+    font-size: 11px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.nav .fa-search{
+    padding: 3.5px;
+    left: 283.5px;
+    top: 14.5px;
+}
+
+.cont2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+
+.cont2 hr{
+    width: 20%;
+    margin-left: 450px;
+}
+
+.linkson{
+    margin-left: 230px;
+}
+
+.social a{
+    margin: 40px;  
+}
+
+#myBtn{
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+}
+
+}
+
+
+
+
+@media(max-width: 414px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 5px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper{
+        grid-auto-rows: 180px;
+        margin-left: 378px;
+        margin-right: 378px;
+       }
+
+       .wrapper > div{
+          background-color: lightseagreen;
+       } 
+    
+       
+        .wrapper img{
+            height: 130px;
+            width: 100%;
+          
+        }
+
+    .box2{
+            padding-left: 295px;
+            padding-right: 140px;
+             height: 100px;
+             background-color:black;
+         }
+
+    .box2 > div{     
+        margin-left: 195px;
+        margin-right: 120px;
+        padding-left: 10px;
+    }
+        
+        .topper > div img{
+            height: 90px;
+            width: 73px;
+        }
+
+    
+    .cont{
+       
+        grid-gap: 0%;
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+
+    .box1{
+        margin: 0%;
+    }
+
+
+    .heading{
+        display: none;
+    }
+   
+    .onvd h3{
+      margin-left: 80px;
+    }
+
+    .onvd{
+      margin-left: 180px;
+      margin-right: 180px;
+      padding-left: 15px;
+    }
+
+    #defin{
+     font-size: 17px;
+      margin-left: 1px;
+      margin-right: 15px;
+      padding-left: 15px;
+    }
+
+    .intitle{
+        font-size: 11px;
+    }
+
+    .intype1{
+        font-size: 14px;
+        display: none;
+    }
+
+    .intype{
+        font-size: 11px;
+        display: none;
+    } 
+  
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+   
+
+    video{
+        max-width: 100%;
+    }
+
+   
+   
+  .indisplay > div{
+       
+      display: none;
+  }
+
+
+    .displaypic{
+        height: 110px;
+        width: 100%;
+    }
+
+    .news > div{
+       
+        background-color: black;
+    }
+  
+    .news > div video{
+        padding: 3px;
+      margin-left: 570px;
+    }
+
+    .news > div img{
+        padding: 3px;
+      margin-left: 560px;
+    }
+
+    .box4 > div video{
+        padding: 3px;
+      margin-left: 560px;
+    }
+
+  
+  .box3 h4{
+      margin-left: 515px;
+      font-size: 25px;
+  }
+
+  .box3 p{
+     font-size: 20px;
+    margin-left: 495px;
+    margin-right: 510px;
+    padding-left: 15px;
+  }
+
+  
+  .box5 h3{
+     margin-left: 670px;
+     font-size: 18px;
+  } 
+
+  .box5 p{
+      font-size: 17px;
+  }
+
+  .tit{
+      font-size: 20px;
+      padding: 7px;
+    margin-left: 514px;
+    margin-right: 512px;
+  }
+
+
+  
+  #lstp{
+      font-size: 14px;
+      margin-left: 495px;
+      margin-right: 510px;
+      padding-left: 15px;
+
+  }
+
+  #uptp{
+      font-size: 16px;
+      margin-left: 150px;
+      margin-right: 220px;
+      padding-left: 15px;
+
+  }
+
+  #dstp{
+      color: white;
+      font-size: 16px;
+      margin-left: 480px;
+      margin-right: 510px;
+      padding-left: 20px;
+
+  }
+
+  .clbm{
+    margin-left: 90px;
+    margin-right: 90px;
+      font-size: 14px;
+  }
+
+  .box4 h3{
+      font-size: 20px;
+      margin-left: 640px;
+  }
+
+
+  #adv{
+      margin-left: 100px;
+  }
+ 
+  #comp{
+      margin-left: 565px;
+      margin-right: 410px;
+      height: 140px;
+  }
+
+  
+  
+  #yourceleb{
+      margin-left: 570px;
+     margin-right: 570px;
+     font-size: 17px;
+  }
+
+  .box4 button{
+      margin-left: 600px;
+     margin-right: 600px;
+  }
+
+  .nav{
+    display: block;
+}
+
+
+.heading{
+    position: absolute;
+    display: none;
+    margin-left: 800px;
+}
+
+.heading img{
+    display: none;
+}
+
+.heading > div{
+    display: none;
+    text-align: center;
+  
+}
+
+.heading > div a{
+  padding: 5px;
+  float: left;
+  font-size: 13px;
+}
+
+.active{
+    display: block;
+}
+
+.about .geners .services .countries .home{
+    display: none;
+}
+
+.item{
+  margin-right: 340px;
+  text-align: left;
+}
+
+
+.nav ul li{
+  margin-left: 10px;
+  height: 20px;
+  font-size: 15px;
+  width: 70px;
+}
+
+.nav input { 
+    border-radius: 5px;
+    height: 0.3px;
+    width: 195px;
+    padding-right: 20px;
+}
+
+.nav .form-control{
+    margin-left: 84%;
+    font-size: 11px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.nav .fa-search{
+    padding: 3.5px;
+    left: 283.5px;
+    top: 14.5px;
+}
+
+.cont2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+
+.cont2 hr{
+    width: 15%;
+    margin-left: 600px;
+}
+
+.linkson{
+    padding: 0;
+    font-size: 25px;
+    margin-left: 580px;
+}
+
+.social a{
+    margin: 10px;  
+}
+
+#myBtn{
+    display: block;
+    padding: 5px;
+    font-size: 15px;
+}
+
+}
+
+
+
+
 @media(max-width: 411px){
 
     body{
@@ -1057,6 +1780,772 @@ li:hover{
     top: 13.2px;
     position: absolute;
   left: 245px;
+  font-size: 15px;
+  color: green;
+  padding: 5px;
+}
+
+
+.item{
+   margin-left: 66%;
+   margin-right: 680px;
+    text-align: left;
+  }
+
+
+
+.cont2 hr{
+    width: 20%;
+    margin-left: 350px;
+}
+
+.linkson{
+    padding: 0;
+    font-size: 25px;
+    margin-left: 320px;
+
+}
+
+.social a{
+    margin: 10px;
+}
+
+
+#myBtn{
+    padding: 3px;
+    font-size: 15px;
+}
+  /* .menu{
+     margin-right: 200px;
+  }
+
+  ul{
+    position: absolute;
+}
+
+ul li{
+    width: 5px;
+}
+
+ul li a{
+     position: absolute;
+}
+
+li:hover{
+  padding-right: 130px;
+}
+
+.heading .container{
+    display: none;
+} */
+}
+
+
+@media(max-width: 375px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .cont{
+        width: 100%;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 5px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper{
+        grid-auto-rows: 150px;
+       
+        margin-left: 267px;
+        margin-right: 25px;
+       }
+
+       .wrapper > div{
+          background-color: lightseagreen;
+       } 
+    
+       
+        .wrapper img{
+            height: 110px;
+            width: 100%;
+          
+        }
+
+    .box2{
+            padding-left: 194px;
+            padding-right: 90px;
+             height: 100px;
+             background-color: black;
+         }
+
+    .box2 > div{
+        margin-left: 60px;
+        margin-right: 180px;
+        padding-left: 10px;
+    }
+        
+        .topper > div img{
+            height: 90px;
+            width: 62px;
+        }
+
+    
+    .cont{
+       
+        grid-gap: 0%;
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+
+    .box1{
+        margin: 0%;
+    }
+
+
+    .heading{
+        display: none;
+    }
+   
+    .onvd h3{
+      margin-left: 80px;
+    }
+
+    .onvd{
+      margin-left: 180px;
+      margin-right: 180px;
+      padding-left: 15px;
+    }
+
+    #defin{
+     font-size: 17px;
+      margin-left: 1px;
+      margin-right: 15px;
+      padding-left: 15px;
+    }
+
+    .intitle{
+        font-size: 11px;
+    }
+
+    .intype1{
+        font-size: 11px;
+        display: none;
+    }
+
+    .intype{
+        font-size: 11px;
+        display: none;
+    } 
+  
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+   
+  .indisplay > div{
+       
+      display: none;
+  }
+
+
+    .displaypic{
+        height: 100px;
+        width: 100%;
+    }
+
+    .news > div{
+       
+        background-color: black;
+    }
+  
+    .news > div video{
+        padding: 3px;
+      margin-left: 290px;
+    }
+
+    .news > div img{
+        padding: 3px;
+      margin-left: 290px;
+    }
+
+    .box4 > div video{
+        padding: 3px;
+      margin-left: 290px;
+    }
+
+  /* .box3{
+    margin-left: -300px;
+    margin-right: -350px;
+      
+  } */
+
+
+  .box3 h4{
+      margin-left: 265px;
+  }
+
+  .box3 p{
+     
+    margin-left: 248px;
+    margin-right: 270px;
+      padding-left: 15px;
+  }
+
+  
+  .box5 h3{
+     margin-left: 400px;
+     font-size: 18px;
+  } 
+
+  .box5 p{
+      font-size: 17px;
+  }
+
+  .tit{
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 268px;
+    margin-right: 268px;
+  }
+
+
+  
+  #lstp{
+      font-size: 14px;
+      margin-left: 250px;
+      margin-right: 280px;
+      padding-left: 15px;
+
+  }
+
+  #uptp{
+      font-size: 16px;
+      margin-left: 150px;
+      margin-right: 220px;
+      padding-left: 15px;
+
+  }
+
+  #dstp{
+      color: white;
+      font-size: 16px;
+      margin-left: 240px;
+      margin-right: 270px;
+      padding-left: 15px;
+
+  }
+
+  .clbm{
+    margin-left: 90px;
+    margin-right: 90px;
+      font-size: 15px;
+  }
+
+  .box4 h3{
+      margin-left: 380px;
+  }
+
+
+  #adv{
+      margin-left: 100px;
+  }
+
+  #comp{
+      margin-left: 290px;
+      margin-right: 380px;
+  }
+
+  
+  
+  #yourceleb{
+      margin-left: 300px;
+     margin-right: 300px;
+     font-size: 14px;
+  }
+
+  .box4 button{
+      margin-left: 350px;
+     margin-right: 350px;
+    
+  }
+
+  .heading{
+      position: absolute;
+      display: none;
+      margin-left: 800px;
+  }
+
+  .heading img{
+      display: none;
+  }
+
+  .heading > div{
+      display: block;
+      text-align: center;
+  }
+
+  .heading > div a{
+    padding: 5px;
+    float: left;
+    font-size: 13px;
+}
+
+  .active{
+      display: block;
+  }
+
+  .about .geners .services .countries .home{
+      display: none;
+  }
+
+
+  .nav img{
+    margin-left: 123%;
+   
+}
+
+#nav-icon{
+    right: 125px;
+   
+}
+
+.nav input{
+    width: 170px;
+}
+
+.nav .form-control{
+    margin-left: 76%;
+    font-size: 11px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+
+.nav .fa-search{
+    top: 13.2px;
+    position: absolute;
+  left: 245px;
+  font-size: 15px;
+  color: green;
+  padding: 5px;
+}
+
+
+.item{
+   margin-left: 66%;
+   margin-right: 680px;
+    text-align: left;
+  }
+
+
+
+.cont2 hr{
+    width: 20%;
+    margin-left: 350px;
+}
+
+.linkson{
+    padding: 0;
+    font-size: 25px;
+    margin-left: 320px;
+
+}
+
+.social a{
+    margin: 10px;
+}
+
+
+#myBtn{
+    padding: 3px;
+    font-size: 15px;
+}
+  /* .menu{
+     margin-right: 200px;
+  }
+
+  ul{
+    position: absolute;
+}
+
+ul li{
+    width: 5px;
+}
+
+ul li a{
+     position: absolute;
+}
+
+li:hover{
+  padding-right: 130px;
+}
+
+.heading .container{
+    display: none;
+} */
+}
+
+
+@media(max-width: 320px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .cont{
+        width: 100%;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 5px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper{
+        grid-auto-rows: 140px;
+       
+        margin-left: 285px;
+        margin-right: 67px;
+       }
+
+       .wrapper > div{
+          background-color: lightseagreen;
+       } 
+    
+       
+        .wrapper img{
+            height: 100px;
+            width: 100%;
+          
+        }
+
+    .box2{
+            padding-left: 194px;
+            padding-right: 90px;
+             height: 100px;
+             background-color: black;
+         }
+
+    .box2 > div{
+        margin-left: 82px;
+        margin-right: 10px;
+        padding-left: 10px;
+    }
+        
+        .topper > div img{
+            height: 90px;
+            width: 69px;
+        }
+
+    
+    .cont{
+       
+        grid-gap: 0%;
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+
+    .box1{
+        margin: 0%;
+    }
+
+
+    .heading{
+        display: none;
+    }
+   
+    .onvd h3{
+      margin-left: 80px;
+    }
+
+    .onvd{
+      margin-left: 180px;
+      margin-right: 180px;
+      padding-left: 15px;
+    }
+
+    #defin{
+     font-size: 17px;
+      margin-left: 1px;
+      margin-right: 15px;
+      padding-left: 15px;
+    }
+
+    .intitle{
+        font-size: 11px;
+    }
+
+    .intype1{
+        font-size: 11px;
+        display: none;
+    }
+
+    .intype{
+        font-size: 11px;
+        display: none;
+    } 
+  
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+   
+  .indisplay > div{
+       
+      display: none;
+  }
+
+
+    .displaypic{
+        height: 100px;
+        width: 100%;
+    }
+
+    .news > div{
+       
+        background-color: black;
+    }
+  
+    .news > div video{
+        padding: 3px;
+      margin-left: 290px;
+    }
+
+    .news > div img{
+        padding: 3px;
+      margin-left: 290px;
+    }
+
+    .box4 > div video{
+        padding: 3px;
+      margin-left: 290px;
+    }
+
+  /* .box3{
+    margin-left: -300px;
+    margin-right: -350px;
+      
+  } */
+
+
+  .box3 h4{
+      margin-left: 290px;
+      font-size: 20px;
+  }
+
+  .box3 p{
+     font-size: 17px;
+    margin-left: 271px;
+    margin-right: 290px;
+      padding-left: 15px;
+  }
+
+  
+  .box5 h3{
+     margin-left: 400px;
+     font-size: 18px;
+  } 
+
+  .box5 p{
+      font-size: 16px;
+  }
+
+  .tit{
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 285px;
+    margin-right: 285px;
+  }
+
+
+  
+  #lstp{
+      font-size: 15px;
+      margin-left: 275px;
+      margin-right: 285px;
+      padding-left: 15px;
+
+  }
+
+  #uptp{
+      font-size: 16px;
+      margin-left: 190px;
+      margin-right: 220px;
+      padding-left: 15px;
+
+  }
+
+  #dstp{
+      color: white;
+      font-size: 16px;
+      margin-left: 265px;
+      margin-right: 275px;
+      padding-left: 15px;
+
+  }
+
+  .clbm{
+    margin-left: 90px;
+    margin-right: 90px;
+      font-size: 15px;
+  }
+
+  .box4 h3{
+      margin-left: 380px;
+  }
+
+
+  #adv{
+      margin-left: 100px;
+  }
+
+  #comp{
+      margin-left: 290px;
+      margin-right: 380px;
+  }
+
+  
+  
+  #yourceleb{
+      margin-left: 300px;
+     margin-right: 300px;
+     font-size: 14px;
+  }
+
+  .box4 button{
+      margin-left: 350px;
+     margin-right: 350px;
+    
+  }
+
+  .heading{
+      position: absolute;
+      display: none;
+      margin-left: 800px;
+  }
+
+  .heading img{
+      display: none;
+  }
+
+  .heading > div{
+      display: block;
+      text-align: center;
+  }
+
+  .heading > div a{
+    padding: 5px;
+    float: left;
+    font-size: 13px;
+}
+
+  .active{
+      display: block;
+  }
+
+  .about .geners .services .countries .home{
+      display: none;
+  }
+
+
+  .nav img{
+    margin-left: 123%;
+    width: 60px;
+   
+}
+
+#nav-icon{
+    right: 125px;
+   
+}
+
+.nav input{
+    width: 170px;
+}
+
+.nav .form-control{
+    margin-left: 76%;
+    font-size: 11px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+
+.nav .fa-search{
+    top: 13.2px;
+    position: absolute;
+  left: 223px;
   font-size: 15px;
   color: green;
   padding: 5px;

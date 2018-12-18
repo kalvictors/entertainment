@@ -139,15 +139,25 @@
     }
 
     .wrapper{
+        margin: 10px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 220px ;
+        grid-auto-rows: 250px ;
         width: 385px;
     }
 
     .wrapper div{
-        margin: 0px;
-        height: 190px;
+        margin: 5px;
+        
+    }
+
+
+    .innn{
+        display: none;
+    }
+
+    .muscgns{
+        display: none;
     }
 
     .geners1{
@@ -171,8 +181,12 @@
         margin-right: 130px;
     }
 
+    .news{
+        margin: 5px;
+    }
+
     .news > div{
-        width: 390px;
+        width: 400px;
     }
     
     .box4{
@@ -290,6 +304,19 @@
      padding: 3.5px;
      left: 278.5px;
      top: 14.7px;
+ }
+
+ .intitle{
+     right: 5px;
+     width: 95%;
+     bottom: 9.5px;
+     padding: 5px;
+ }
+
+ .intype1{
+     right: 5px;
+     width: 35%;
+     bottom: 50px;
  }
 
 

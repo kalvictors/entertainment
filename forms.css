@@ -27,7 +27,7 @@ hr{
     
     background-color: white;
     display: grid;
-    grid-gap: 0.3em;
+    grid-gap: 0.2em;
     grid-auto-rows: (100px, auto);
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
