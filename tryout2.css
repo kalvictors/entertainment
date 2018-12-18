@@ -1,3 +1,369 @@
+@media(max-width: 1024px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 5px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper{
+        grid-auto-rows: 250px;
+        margin-left: 215px;
+        margin-right: -140px;
+       }
+
+       .wrapper > div{
+          background-color: lightseagreen;
+          
+          margin-left: -180px;
+          width: 100%;
+       } 
+    
+       
+        .wrapper img{
+            height: 215px;
+            width: 100%;
+          
+        }
+
+    .box2{
+            padding-left: 295px;
+            padding-right: 100px;
+             height: 165px;
+             background-color:black;
+         }
+
+    .box2 > div{     
+        margin-left: -260px;
+        margin-right: 0px;
+       
+    }
+        
+        .topper > div img{
+            height: 150px;
+            width: 110px;
+        }
+
+    
+    .cont{
+       
+        grid-gap: 0%;
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+
+    .box1{
+        margin: 0%;
+    }
+
+
+    .onvd h3{
+      margin-left: 80px;
+    }
+
+    .onvd{
+      margin-left: 180px;
+      margin-right: 180px;
+      padding-left: 15px;
+    }
+
+    #defin{
+     font-size: 17px;
+      margin-left: 1px;
+      margin-right: 15px;
+      padding-left: 15px;
+    }
+
+    .intitle{
+        font-size: 11px;
+    }
+
+    .intype1{
+        font-size: 14px;
+        margin-left: 80px;
+        bottom: 47px;
+        height: 22px;
+    }
+
+    .intype{
+        font-size: 11px;
+        bottom: 47px;
+        height: 20px;
+    } 
+  
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+   
+
+    video{
+        max-width: 100%;
+    }
+
+   
+   
+  .indisplay > div{
+       
+      display: none;
+  }
+
+
+    .displaypic{
+        height: 110px;
+        width: 100%;
+    }
+
+    .news > div{
+       
+        background-color: black;
+    }
+  
+
+    .news > div img{
+        padding: 3px;
+      margin-left: 80px;
+    }
+
+    .box4 > div video{
+        padding: 20px;
+      margin-left: 80px;
+      width: 800px;
+    }
+
+    .box4 img{
+        width: 800px;
+        height: 300px;
+    }
+
+    .box4 .newspic{
+        height: 550px;
+    }
+
+  
+  .box3 h4{
+      margin-left: 40px;
+      font-size: 30px;
+  }
+
+  .box3 p{
+     font-size: 28px;
+    margin-left: 20px;
+    margin-right: 100px;
+    padding-left: 15px;
+  }
+
+  
+  .box5 h3{
+     margin-left: 670px;
+     font-size: 22px;
+  } 
+
+  .box5 p{
+      font-size: 30px;
+  }
+
+  .tit{
+      font-size: 20px;
+      padding: 7px;
+    margin-left: 35px;
+    margin-right: 39px;
+  }
+
+
+  
+  #lstp{
+      font-size: 25px;
+      margin-left: 20px;
+      margin-right: 100px;
+      padding-left: 15px;
+
+  }
+
+  #uptp{
+      font-size: 25px;
+      margin-left: 10px;
+      margin-right: 100px;
+      padding-left: 15px;
+
+  }
+
+  #dstp{
+      color: white;
+      font-size: 25px;
+      margin-left: 10px;
+      margin-right: 100px;
+      padding-left: 20px;
+
+  }
+
+  .clbm{
+    margin-left: 90px;
+    margin-right: 90px;
+      font-size: 28px;
+  }
+
+  .box4 h3{
+      font-size: 32px;
+      margin-left: 400px;
+  }
+
+
+  #adv{
+      margin-left: 100px;
+  }
+ 
+  #comp{
+      margin-left: 140px;
+      margin-right: 140px;
+      height: 200px;
+      width: 700px;
+  }
+
+  
+  
+  #yourceleb{
+      margin-left: 200px;
+     margin-right: 200px;
+     font-size: 30px;
+  }
+
+  .box4 button{
+      font-size: 17px;
+      margin-left: 250px;
+     margin-right: 250px;
+  }
+
+  .nav{
+    display: none;
+}
+
+
+.heading{
+   margin-left: 25px;
+    margin-right: 25px;
+    font-size: 18px;
+    padding: 25px;
+}
+
+
+.heading > div{
+    text-align: center;
+}
+
+.heading > div a{
+  padding: 5px;
+}
+
+.active{
+    display: block;
+}
+
+.about .geners .services .countries .home{
+    display: none;
+}
+
+.item{
+  margin-right: 340px;
+  text-align: left;
+}
+
+
+.nav ul li{
+  margin-left: 10px;
+  height: 20px;
+  font-size: 15px;
+  width: 70px;
+}
+
+.nav input { 
+    border-radius: 5px;
+    height: 0.3px;
+    width: 195px;
+    padding-right: 20px;
+}
+
+.nav .form-control{
+    margin-left: 84%;
+    font-size: 11px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.nav .fa-search{
+    padding: 3.5px;
+    left: 283.5px;
+    top: 14.5px;
+}
+
+.cont2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+
+.cont2 h5{
+    font-size: 30px;
+}
+
+.cont2 hr{
+    width: 35%;
+    margin-left: 330px;
+}
+
+.linkson{
+    margin-left: 20px;
+}
+
+.social a{
+    margin: 60px;  
+    font-size: 60px;
+}
+
+#myBtn{
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+}
+
+}
+
+
 @media(max-width: 768px){
 
     body{
@@ -168,9 +534,10 @@
 
     .box4 img{
         width: 500px;
+        height: 200px;
     }
 
-    .newspic{
+    .box4 .newspic{
         width: 500px;
         height: 400px;
     }
@@ -195,7 +562,7 @@
   } 
 
   .box5 p{
-      font-size: 17px;
+      font-size: 28px;
   }
 
   .tit{
@@ -208,15 +575,15 @@
 
   
   #lstp{
-      font-size: 14px;
+      font-size: 20px;
       margin-left: 185px;
-      margin-right: 400px;
+      margin-right: 200px;
       padding-left: 15px;
 
   }
 
   #uptp{
-      font-size: 16px;
+      font-size: 20px;
       margin-left: 180px;
       margin-right: 220px;
       padding-left: 15px;
@@ -225,9 +592,9 @@
 
   #dstp{
       color: white;
-      font-size: 16px;
+      font-size: 20px;
       margin-left: 170px;
-      margin-right: 400px;
+      margin-right: 200px;
       padding-left: 20px;
 
   }
@@ -260,7 +627,7 @@
   #yourceleb{
       margin-left: 200px;
      margin-right: 200px;
-     font-size: 20px;
+     font-size: 23px;
   }
 
   .box4 button{
@@ -275,8 +642,9 @@
 
 
 .heading{
-   margin-left: 190px;
-    margin-right: 190px;
+   margin-left: 180px;
+    margin-right: 175px;
+    
     font-size: 13px;
 }
 
@@ -286,7 +654,8 @@
 }
 
 .heading > div a{
-  padding: 0px;
+  padding: 3px;
+ 
 }
 
 .active{
@@ -342,7 +711,8 @@
 }
 
 .linkson{
-    margin-left: 230px;
+    margin-left: 200px;
+    font-size: 25px;
 }
 
 .social a{
@@ -356,6 +726,7 @@
 }
 
 }
+
 
 
 
@@ -392,8 +763,8 @@
 
     .wrapper{
         grid-auto-rows: 180px;
-        margin-left: 378px;
-        margin-right: 378px;
+        margin-left: 380px;
+        margin-right: 365px;
        }
 
        .wrapper > div{
@@ -521,12 +892,22 @@
 
     .news > div img{
         padding: 3px;
-      margin-left: 560px;
+      margin-left: 545px;
     }
 
     .box4 > div video{
         padding: 3px;
-      margin-left: 560px;
+      margin-left: 545px;
+     width: 300px;
+    }
+
+    .box4 img{
+        width: 300px;
+    }
+
+    .newspic{
+        width: 100%;
+        height: 60%;
     }
 
   
@@ -555,8 +936,8 @@
   .tit{
       font-size: 20px;
       padding: 7px;
-    margin-left: 514px;
-    margin-right: 512px;
+    margin-left: 510px;
+    margin-right: 510px;
   }
 
 
@@ -603,9 +984,10 @@
   }
  
   #comp{
-      margin-left: 565px;
+      margin-left: 535px;
       margin-right: 410px;
       height: 140px;
+      width: 320px;
   }
 
   
@@ -753,8 +1135,8 @@
 
     .wrapper{
         grid-auto-rows: 180px;
-        margin-left: 378px;
-        margin-right: 378px;
+        margin-left: 380px;
+        margin-right: 368px;
        }
 
        .wrapper > div{
@@ -882,25 +1264,35 @@
 
     .news > div img{
         padding: 3px;
-      margin-left: 570px;
+      margin-left: 540px;
     }
 
     .box4 > div video{
         padding: 3px;
-      margin-left: 570px;
+      margin-left: 540px;
+    }
+
+    .box4 img{
+        width: 300px;
+    }
+
+    .newspic{
+        width: 100%;
+        height: 60%;
     }
 
   
   .box3 h4{
-      margin-left: 520px;
-      font-size: 25px;
+      margin-left: 515px;
+      font-size: 23px;
   }
 
   .box3 p{
      font-size: 20px;
-    margin-left: 500px;
+    margin-left: 497px;
     margin-right: 510px;
     padding-left: 15px;
+    font-size: 18px;
   }
 
   
@@ -916,15 +1308,15 @@
   .tit{
       font-size: 20px;
       padding: 7px;
-    margin-left: 514px;
-    margin-right: 512px;
+    margin-left: 509px;
+    margin-right: 510px;
   }
 
 
   
   #lstp{
       font-size: 14px;
-      margin-left: 510px;
+      margin-left: 505px;
       margin-right: 510px;
       padding-left: 15px;
 
@@ -932,7 +1324,7 @@
 
   #uptp{
       font-size: 16px;
-      margin-left: 160px;
+      margin-left: 155px;
       margin-right: 220px;
       padding-left: 15px;
 
@@ -941,7 +1333,7 @@
   #dstp{
       color: white;
       font-size: 16px;
-      margin-left: 490px;
+      margin-left: 485px;
       margin-right: 510px;
       padding-left: 20px;
 
@@ -954,7 +1346,7 @@
   }
 
   .box4 h3{
-      font-size: 20px;
+      font-size: 18px;
       margin-left: 640px;
   }
 
@@ -964,7 +1356,7 @@
   }
  
   #comp{
-      margin-left: 565px;
+      margin-left: 535px;
       margin-right: 410px;
       height: 140px;
   }
@@ -1113,8 +1505,8 @@
     .wrapper{
         grid-auto-rows: 150px;
        
-        margin-left: 260px;
-        margin-right: 10px;
+        margin-left: 265px;
+        margin-right: 0px;
        }
 
        .wrapper > div{
@@ -1136,7 +1528,7 @@
          }
 
     .box2 > div{
-        margin-left: 50px;
+        margin-left: 48px;
         margin-right: 180px;
         padding-left: 10px;
     }
@@ -1236,12 +1628,12 @@
   
     .news > div video{
         padding: 3px;
-      margin-left: 290px;
+      margin-left: 280px;
     }
 
     .news > div img{
         padding: 3px;
-      margin-left: 290px;
+      margin-left: 280px;
     }
 
     .box4 > div video{
@@ -1280,8 +1672,8 @@
   .tit{
     font-size: 15px;
     padding: 5px;
-    margin-left: 263px;
-    margin-right: 263px;
+    margin-left: 258px;
+    margin-right: 258px;
   }
 
 
@@ -1327,7 +1719,7 @@
   }
 
   #comp{
-      margin-left: 290px;
+      margin-left: 270px;
       margin-right: 380px;
   }
 
@@ -1458,8 +1850,7 @@ li:hover{
 }
 
 
-
-@media(max-width: 360px){
+@media(max-width: 375px){
 
     body{
         margin: 0px;
@@ -1493,7 +1884,7 @@ li:hover{
         grid-auto-rows: 150px;
        
         margin-left: 267px;
-        margin-right: 25px;
+        margin-right: 5px;
        }
 
        .wrapper > div{
@@ -1515,14 +1906,14 @@ li:hover{
          }
 
     .box2 > div{
-        margin-left: 60px;
-        margin-right: 180px;
+        margin-left: 50px;
+        margin-right: 130px;
         padding-left: 10px;
     }
         
         .topper > div img{
             height: 90px;
-            width: 62px;
+            width: 65px;
         }
 
     
@@ -1615,12 +2006,12 @@ li:hover{
   
     .news > div video{
         padding: 3px;
-      margin-left: 290px;
+      margin-left: 280px;
     }
 
     .news > div img{
         padding: 3px;
-      margin-left: 290px;
+      margin-left: 280px;
     }
 
     .box4 > div video{
@@ -1636,12 +2027,12 @@ li:hover{
 
 
   .box3 h4{
-      margin-left: 285px;
+      margin-left: 265px;
   }
 
   .box3 p{
      
-    margin-left: 265px;
+    margin-left: 248px;
     margin-right: 270px;
       padding-left: 15px;
   }
@@ -1659,15 +2050,15 @@ li:hover{
   .tit{
     font-size: 15px;
     padding: 5px;
-    margin-left: 268px;
-    margin-right: 268px;
+    margin-left: 260px;
+    margin-right: 261px;
   }
 
 
   
   #lstp{
       font-size: 14px;
-      margin-left: 260px;
+      margin-left: 250px;
       margin-right: 280px;
       padding-left: 15px;
 
@@ -1675,7 +2066,7 @@ li:hover{
 
   #uptp{
       font-size: 16px;
-      margin-left: 160px;
+      margin-left: 150px;
       margin-right: 220px;
       padding-left: 15px;
 
@@ -1684,7 +2075,7 @@ li:hover{
   #dstp{
       color: white;
       font-size: 16px;
-      margin-left: 250px;
+      margin-left: 240px;
       margin-right: 270px;
       padding-left: 15px;
 
@@ -1706,7 +2097,7 @@ li:hover{
   }
 
   #comp{
-      margin-left: 290px;
+      margin-left: 270px;
       margin-right: 380px;
   }
 
@@ -1840,8 +2231,7 @@ li:hover{
 } */
 }
 
-
-@media(max-width: 375px){
+@media(max-width: 360px){
 
     body{
         margin: 0px;
@@ -1873,9 +2263,8 @@ li:hover{
 
     .wrapper{
         grid-auto-rows: 150px;
-       
-        margin-left: 267px;
-        margin-right: 25px;
+        margin-left: 274px;
+        margin-right: 20px;
        }
 
        .wrapper > div{
@@ -1897,14 +2286,14 @@ li:hover{
          }
 
     .box2 > div{
-        margin-left: 60px;
-        margin-right: 180px;
+        margin-left: 56px;
+        margin-right: 170px;
         padding-left: 10px;
     }
         
         .topper > div img{
             height: 90px;
-            width: 62px;
+            width: 63px;
         }
 
     
@@ -1997,12 +2386,12 @@ li:hover{
   
     .news > div video{
         padding: 3px;
-      margin-left: 290px;
+      margin-left: 280px;
     }
 
     .news > div img{
         padding: 3px;
-      margin-left: 290px;
+      margin-left: 280px;
     }
 
     .box4 > div video{
@@ -2018,12 +2407,12 @@ li:hover{
 
 
   .box3 h4{
-      margin-left: 265px;
+      margin-left: 285px;
   }
 
   .box3 p{
      
-    margin-left: 248px;
+    margin-left: 265px;
     margin-right: 270px;
       padding-left: 15px;
   }
@@ -2049,7 +2438,7 @@ li:hover{
   
   #lstp{
       font-size: 14px;
-      margin-left: 250px;
+      margin-left: 260px;
       margin-right: 280px;
       padding-left: 15px;
 
@@ -2057,7 +2446,7 @@ li:hover{
 
   #uptp{
       font-size: 16px;
-      margin-left: 150px;
+      margin-left: 160px;
       margin-right: 220px;
       padding-left: 15px;
 
@@ -2066,7 +2455,7 @@ li:hover{
   #dstp{
       color: white;
       font-size: 16px;
-      margin-left: 240px;
+      margin-left: 250px;
       margin-right: 270px;
       padding-left: 15px;
 
@@ -2088,7 +2477,7 @@ li:hover{
   }
 
   #comp{
-      margin-left: 290px;
+      margin-left: 270px;
       margin-right: 380px;
   }
 
