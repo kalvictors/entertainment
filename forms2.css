@@ -75,6 +75,11 @@
         /* padding-right: 2000px; */
     }
 
+    .content{    
+        font-size: 17px;
+        margin-right: 290px;
+    }
+
     .desc{
         margin-right: 290px;
     }

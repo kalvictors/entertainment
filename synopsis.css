@@ -67,6 +67,23 @@ hr{
     grid-area: box6;
 }
 
+.box3 img{
+    margin-left: 10px;
+}
+
+.box3 video{
+    margin-left: 10px;
+}
+
+
+.box5 img{
+    margin-left: 10px;
+}
+
+.box5 video{
+    margin-left: 10px;
+}
+
 .tap{
     background-color: black;
   

@@ -299,11 +299,29 @@ a{
     border: solid 1px white;
 }
 
+.content{
+    color:green;
+    text-align: center;
+    font-size: 20px;
 
-.newspic{
-    width: 280px;
-    height: 230px;
 }
+
+
+.box3 img{
+    margin-left: 10px;
+}
+
+.box5 img{
+    margin-left: 10px;
+}
+
+
+.news .newspic{
+    width: 250px;
+    height: 230px;
+    margin-left: 25px;
+}
+
 
 #scrow{
     color: black;

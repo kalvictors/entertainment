@@ -404,7 +404,7 @@
     
     .box5{
         grid-area: box5;
-        width: 360px;
+        width: 300px;
     }
 
     .box5 img{
@@ -418,6 +418,10 @@
     .box1 img{
         width: 30px;
         height: 30px;
+    }
+
+    .news{
+        width: 340px;
     }
 
     .indisplay{
@@ -458,11 +462,6 @@
       color: green;
    }
   
-  #castpics{
-      border: solid 2px black;
-      width: 190px;
-      height: 210px;
-  }
 
   #castpics{
     height: 120px;

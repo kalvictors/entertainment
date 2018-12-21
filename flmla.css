@@ -254,6 +254,14 @@ a{
     border: 1px solid tan;
 }
 
+.box4 video{
+    margin-left: 50px;
+}
+
+.box4 img{
+    margin-left: 50px;
+}
+
 .home:hover{
     background-color: red;
 }
@@ -325,6 +333,18 @@ a{
     color: blue;
 }
 
+.intype{
+    position: relative;
+    font-size: 10px;
+    background-color: lightseagreen;
+    padding: 3px;
+    bottom: 214px;
+    float: right;
+}
+
+.intype a{
+    color: red;
+}
 
 .intype1{
     position: relative;
