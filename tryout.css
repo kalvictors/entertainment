@@ -138,10 +138,11 @@ hr{
 }
 
 
-ul{
+.heading ul{
     margin: 0%;
     padding: 0%;
     list-style: none;
+    margin-top: 5px;
 }
 
 .countries{
@@ -171,8 +172,6 @@ ul{
 
 .heading ul li{
     background-color: grey;
-    
-    /* height: 30px; */
     opacity: .7;
     text-align: center;
     line-height: 40px;

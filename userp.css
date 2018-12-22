@@ -61,12 +61,13 @@ ul{
 }
 
 
-ul{
-    background-color: gray;
+.heading ul{
     margin: 0%;
     padding: 0%;
     list-style: none;
+    margin-top: 5px;
 }
+
 
 .countries{
     background-color: blue;

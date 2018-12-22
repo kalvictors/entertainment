@@ -129,14 +129,6 @@ hr{
     height: 20px;
 }
 
-/* .bar{
-    background-color: black;
-    display: none;
-    color: white;
-    text-align: center;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: right;
-} */
 
 .countries{
     background-color: blue;
@@ -182,12 +174,13 @@ hr{
 }
 
 
-ul{
-    background-color: gray;
+.heading ul{
     margin: 0%;
     padding: 0%;
     list-style: none;
+    margin-top: 5px;
 }
+
 
 .heading ul li{
     background-color: grey;

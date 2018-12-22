@@ -126,7 +126,6 @@ h2{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-gap: 0.5em;
-    cursor: pointer;
     padding: 15px;
     background-color: black;
     color: whitesmoke;
@@ -146,11 +145,11 @@ h2{
 }
 
 
-ul{
-    background-color: gray;
+.heading ul{
     margin: 0%;
     padding: 0%;
     list-style: none;
+    margin-top: 5px;
 }
 
 .heading ul li{

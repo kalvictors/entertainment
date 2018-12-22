@@ -148,14 +148,7 @@ hr{
     height: 20px;
 }
 
-/* .bar{
-    background-color: black;
-    display: none;
-    color: white;
-    text-align: center;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: right;
-} */
+
 
 .countries{
     background-color: blue;
@@ -201,12 +194,13 @@ hr{
 }
 
 
-ul{
-    background-color: gray;
+.heading ul{
     margin: 0%;
     padding: 0%;
     list-style: none;
+    margin-top: 5px;
 }
+
 
 .heading ul li{
     background-color: grey;
@@ -322,6 +316,7 @@ a{
     margin: 50px;
     border: solid 3px grey;
     width: 980px;
+    height: 753px;
 }
 
 .onvd video{
@@ -329,33 +324,48 @@ a{
 }
 
 .progtitle{
-    background-color: aqua;
+    background-color: whitesmoke;
     padding: 0px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 80px;
     grid-gap: 9em;
+    top: 20%;
 }
 
 .progtitle > div{
     margin: 20px;
-    background-color: khaki;
-    font-size: 20px;
+    background-color: gainsboro;
+    font-size: 15px;
     width: 100px;
+    height: 50px;
 }
 
 .progtitle .tvlogo{
     background-color: #555;
 }
 
+.progtitle .tvlogo h5{
+    bottom: 20px;
+}
+
 .progtitle .tvhead{
     width: 350px;
     background-color: green;
-    height: 80px;
+    height: 50px;
+    color: whitesmoke;
 }
 
-.onvd video poster{
-    height: 100px;
+.progtitle .tvhead h6{
+    margin-left: 10px;
+    text-align: center;
 }
+
+.trailer h5{
+    color: blue;
+    text-align: center;
+}
+
 
 #defin{
     color: lightblue;
