@@ -1,7 +1,7 @@
-<?php
+<!-- <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "come5home";
 $dbname = "zalpoint_dbitb";
 
 // Create connection
@@ -18,10 +18,13 @@ if(isset($_POST['btn-signup']))
  $nationality = ($_POST['nationality']);
  $phone = ($_POST['phone']);
  $email = ($_POST['email']);
- $password = ($_POST['password']);
+ $password = ($_POST['password_1']);
+}
+
+
 
 $sql = "INSERT INTO users (firstname, lastname, nationality, phone, email, password)
-VALUES ('$firstname','$lastname','$nationality','$phone','$email','$password')";
+    VALUES ('$firstname','$lastname','$nationality','$phone','$email','$password')";
 
 if ($conn->query($sql) === TRUE) 
 {
@@ -33,4 +36,8 @@ else
 }
 $conn->close();
 }
-?>
+
+
+
+
+?> -->

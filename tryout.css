@@ -27,6 +27,8 @@ hr{
     color: red;
     font-size: 30px;
     cursor: pointer;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .cont{

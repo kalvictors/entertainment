@@ -269,67 +269,102 @@
      margin-right: 250px;
   }
 
-  .nav{
-    display: none;
+  .box1{
+    height: 100px;
+}
+
+.nav{
+  display: block;
+  height: 70px;
 }
 
 
+.item{
+margin-left: 35px;
+margin-right: 300px;
+text-align: left;
+width: 150px;
+font-size: 20px;
+
+}
+
+.nav .item a{
+  font-size: 20px;
+}
+
+
+.item ul li{
+margin-left: -15px;
+font-size: 20px;
+width: 150px;
+}
+
+
+.nav input { 
+  border-radius: 5px;
+  height: 0.3px;
+  width: 400px;
+  padding-right: 20px;
+}
+
+.nav .form-control{
+  margin-left: 60%;
+  font-size: 20px;
+  height: 45px;
+  top: -20px;
+}
+
+.nav .fa-search{
+  font-size: 30px;
+  padding: 3.5px;
+  left: 690px;
+  top: 20px;
+}
+
+#nav-icon{
+  font-size: 50px;
+  margin-left: -310px;
+  top: -110px;
+}
+
+.nav img{
+  margin-right: -480px;
+  width: 100px;
+  height: 50px;
+  top: -50px;
+}
+
 .heading{
-   margin-left: 25px;
-    margin-right: 25px;
-    font-size: 18px;
-    padding: 25px;
+ margin-left: 180px;
+  margin-right: 175px;
+  display: none;
+  font-size: 13px;
 }
 
 
 .heading > div{
-    text-align: center;
+  text-align: center;
+  display: none;
 }
 
 .heading > div a{
-  padding: 5px;
+padding: 3px;
+display: none;
 }
 
+.heading img{
+  display: none;
+}
+
+
 .active{
-    display: block;
+    display: none;
 }
 
 .about .geners .services .countries .home{
     display: none;
 }
 
-.item{
-  margin-right: 340px;
-  text-align: left;
-}
-
-
-.nav ul li{
-  margin-left: 10px;
-  height: 20px;
-  font-size: 15px;
-  width: 70px;
-}
-
-.nav input { 
-    border-radius: 5px;
-    height: 0.3px;
-    width: 195px;
-    padding-right: 20px;
-}
-
-.nav .form-control{
-    margin-left: 84%;
-    font-size: 11px;
-    height: 20px;
-    margin-top: 10px;
-}
-
-.nav .fa-search{
-    padding: 3.5px;
-    left: 283.5px;
-    top: 14.5px;
-}
 
 .cont2{
     display: grid;
@@ -636,67 +671,100 @@
      margin-right: 400px;
   }
 
+  .box1{
+      height: 100px;
+  }
+
   .nav{
-    display: none;
+    display: block;
+    height: 70px;
 }
 
+
+
+.item{
+  margin-left: 200px;
+  margin-right: 300px;
+  text-align: left;
+  width: 150px;
+  font-size: 20px;
+  
+}
+
+.nav .item a{
+    font-size: 20px;
+}
+
+
+.item ul li{
+  margin-left: -15px;
+  font-size: 20px;
+  width: 150px;
+}
+
+
+.nav input { 
+    border-radius: 5px;
+    height: 0.3px;
+    width: 300px;
+    padding-right: 20px;
+}
+
+.nav .form-control{
+    margin-left: 72%;
+    font-size: 20px;
+    height: 45px;
+    top: -20px;
+}
+
+.nav .fa-search{
+    font-size: 30px;
+    padding: 3.5px;
+    left: 500px;
+    top: 20px;
+}
+
+#nav-icon{
+    font-size: 50px;
+    margin-left: -190px;
+    top: -110px;
+}
+
+.nav img{
+    margin-right: -350px;
+    width: 80px;
+    height: 50px;
+    top: -50px;
+}
 
 .heading{
    margin-left: 180px;
     margin-right: 175px;
-    
+    display: none;
     font-size: 13px;
 }
 
 
 .heading > div{
     text-align: center;
+    display: none;
 }
 
 .heading > div a{
   padding: 3px;
- 
+ display: none;
+}
+
+.heading img{
+    display: none;
 }
 
 .active{
-    display: block;
+    display: none;
 }
 
 .about .geners .services .countries .home{
     display: none;
-}
-
-.item{
-  margin-right: 340px;
-  text-align: left;
-}
-
-
-.nav ul li{
-  margin-left: 10px;
-  height: 20px;
-  font-size: 15px;
-  width: 70px;
-}
-
-.nav input { 
-    border-radius: 5px;
-    height: 0.3px;
-    width: 195px;
-    padding-right: 20px;
-}
-
-.nav .form-control{
-    margin-left: 84%;
-    font-size: 11px;
-    height: 20px;
-    margin-top: 10px;
-}
-
-.nav .fa-search{
-    padding: 3.5px;
-    left: 283.5px;
-    top: 14.5px;
 }
 
 .cont2{
@@ -880,29 +948,36 @@
         width: 100%;
     }
 
+    
     .news > div{
-       
         background-color: black;
     }
   
-    .news > div video{
-        padding: 3px;
-      margin-left: 570px;
-    }
 
-    .news > div img{
+    .box4 > div img{
         padding: 3px;
-      margin-left: 545px;
+      margin-left: 530px;
     }
 
     .box4 > div video{
         padding: 3px;
-      margin-left: 545px;
-     width: 300px;
+      margin-left: 530px;
+      width: 325px;
     }
 
     .box4 img{
         width: 300px;
+    }
+
+    .news .newspic{
+        width: 325px;
+        height: 250px;
+    }
+
+
+    .box4 img{
+        width: 300px;
+        height: 100px;
     }
 
     .newspic{
@@ -930,7 +1005,11 @@
   } 
 
   .box5 p{
-      font-size: 17px;
+      font-size: 20px;
+  }
+
+  .contacts h5{
+      font-size: 20px;
   }
 
   .tit{
@@ -999,12 +1078,17 @@
   }
 
   .box4 button{
-      margin-left: 600px;
-     margin-right: 600px;
+      margin-left: 610px;
+     margin-right: 610px;
+  }
+
+  .box1{
+      height: 50px;
   }
 
   .nav{
     display: block;
+    height: 40px;
 }
 
 
@@ -1038,17 +1122,27 @@
     display: none;
 }
 
-.item{
-  margin-right: 340px;
-  text-align: left;
+.multi-level{
+    margin-top: 7px;
 }
 
+.item{
+    width: 100px;
+   margin-left: 72.3%;
+   margin-right: 680px;
+    text-align: left;
+    font-size: 18px;
+  }
 
-.nav ul li{
-  margin-left: 10px;
-  height: 20px;
-  font-size: 15px;
-  width: 70px;
+.item ul{
+    margin-left: 73.5px;
+    height: 20px;
+    font-size: 20px;
+    width: 70px;
+}
+
+.item ul li{
+    width: 80px;
 }
 
 .nav input { 
@@ -1066,10 +1160,24 @@
 }
 
 .nav .fa-search{
+    font-size: 17px;
     padding: 3.5px;
     left: 283.5px;
     top: 14.5px;
 }
+
+#nav-icon{
+    font-size: 32px;
+    margin-left: 0px;
+    top: -75px;
+  }
+  
+  .nav img{
+    margin-right: -80px;
+    width: 70px;
+    height: 40px;
+    top: -35px;
+  }
 
 .cont2{
     display: grid;
@@ -1085,11 +1193,12 @@
 .linkson{
     padding: 0;
     font-size: 25px;
-    margin-left: 580px;
+    margin-left: 525px;
 }
 
 .social a{
-    margin: 10px;  
+    font-size: 38px;
+    margin: 15px;  
 }
 
 #myBtn{
@@ -1253,32 +1362,28 @@
     }
 
     .news > div{
-       
         background-color: black;
     }
   
-    .news > div video{
-        padding: 3px;
-      margin-left: 570px;
-    }
 
-    .news > div img{
+    .box4 > div img{
         padding: 3px;
-      margin-left: 540px;
+      margin-left: 530px;
     }
 
     .box4 > div video{
         padding: 3px;
-      margin-left: 540px;
+      margin-left: 530px;
+      width: 325px;
     }
 
     .box4 img{
         width: 300px;
     }
 
-    .newspic{
-        width: 100%;
-        height: 60%;
+    .news .newspic{
+        width: 325px;
+        height: 250px;
     }
 
   
@@ -1296,13 +1401,9 @@
   }
 
   
-  .box5 h3{
-     margin-left: 670px;
-     font-size: 18px;
-  } 
 
   .box5 p{
-      font-size: 17px;
+      font-size: 20px;
   }
 
   .tit{
@@ -1409,18 +1510,26 @@
     display: none;
 }
 
+.multi-level{
+    margin-top: 8px;
+}
+
 .item{
-  margin-right: 340px;
-  text-align: left;
+    width: 100px;
+   margin-left: 72.3%;
+   margin-right: 680px;
+    text-align: left;
+    font-size: 18px;
+  }
+
+.item ul{
+    margin-left: 73.5px;
+    height: 20px;
+    font-size: 20px;
+    width: 70px;
 }
 
 
-.nav ul li{
-  margin-left: 10px;
-  height: 20px;
-  font-size: 15px;
-  width: 70px;
-}
 
 .nav input { 
     border-radius: 5px;
@@ -1449,18 +1558,23 @@
 }
 
 .cont2 hr{
-    width: 15%;
-    margin-left: 600px;
+    width: 12%;
+    margin-left: 620px;
+}
+
+.contacts h5{
+    font-size: 20px;
 }
 
 .linkson{
     padding: 0;
     font-size: 25px;
-    margin-left: 580px;
+    margin-left: 520px;
 }
 
 .social a{
-    margin: 10px;  
+    margin: 20px;  
+    font-size: 30px;
 }
 
 #myBtn{
@@ -1629,6 +1743,7 @@
     .news > div video{
         padding: 3px;
       margin-left: 280px;
+      width: 300px;
     }
 
     .news > div img{
@@ -1636,9 +1751,17 @@
       margin-left: 280px;
     }
 
-    .box4 > div video{
-        padding: 3px;
-      margin-left: 290px;
+    .news .newspic{
+        width: 300px;
+    }
+
+
+    .below {
+        margin-left: -250px;
+    }
+
+    .below #yourceleb{
+        margin-left: 550px;
     }
 
   /* .box3{
@@ -1666,7 +1789,7 @@
   } 
 
   .box5 p{
-      font-size: 17px;
+      font-size: 19px;
   }
 
   .tit{
@@ -1732,8 +1855,8 @@
   }
 
   .box4 button{
-      margin-left: 300px;
-     margin-right: 300px;
+      margin-left: 380px;
+     margin-right: 380px;
     
   }
 
@@ -1748,7 +1871,8 @@
 }
 
 .nav .form-control{
-   margin-left: 80%;
+   margin-left: 75%;
+   width: 180px;
 }
 
 
@@ -1756,17 +1880,26 @@
 .nav .fa-search{
     top: 13.2px;
     position: absolute;
-  left: 251px;
+  left: 257px;
   font-size: 15px;
   color: green;
   padding: 5px;
 }
 
 .item{
-   margin-left: 65%;
-   margin-right: 700px;
+    width: 100px;
+   margin-left: 58.7%;
+   margin-right: 680px;
     text-align: left;
+    font-size: 18px;
   }
+
+.item ul{
+    margin-left: 46px;
+    height: 20px;
+    font-size: 20px;
+    width: 70px;
+}
 
   .heading{
       position: absolute;
@@ -1816,12 +1949,13 @@
 .linkson{
     padding: 0;
     font-size: 25px;
-    margin-left: 320px;
+    margin-left: 270px;
 
 }
 
 .social a{
-    margin: 10px;
+    font-size: 30px;
+    margin: 17px;
 }
 
   /* .menu{
@@ -2014,17 +2148,16 @@ li:hover{
       margin-left: 280px;
     }
 
-    .box4 > div video{
-        padding: 3px;
-      margin-left: 290px;
+
+    .below {
+        margin-left: -255px;
     }
 
-  /* .box3{
-    margin-left: -300px;
-    margin-right: -350px;
-      
-  } */
+    .below #yourceleb{
+        margin-left: 550px;
+    }
 
+ 
 
   .box3 h4{
       margin-left: 265px;
@@ -2044,7 +2177,7 @@ li:hover{
   } 
 
   .box5 p{
-      font-size: 17px;
+      font-size: 20px;
   }
 
   .tit{
@@ -2106,12 +2239,12 @@ li:hover{
   #yourceleb{
       margin-left: 300px;
      margin-right: 300px;
-     font-size: 14px;
+     font-size: 16px;
   }
 
   .box4 button{
-      margin-left: 350px;
-     margin-right: 350px;
+      margin-left: 370px;
+     margin-right: 370px;
     
   }
 
@@ -2164,26 +2297,50 @@ li:hover{
     font-size: 11px;
     height: 20px;
     margin-top: 10px;
+    width: 170px;
 }
 
 
 .nav .fa-search{
     top: 13.2px;
     position: absolute;
-  left: 245px;
+  left: 248px;
   font-size: 15px;
   color: green;
   padding: 5px;
 }
 
+.multi-level{
+    margin-top: 8px;
+}
+
 
 .item{
-   margin-left: 66%;
+    margin-left: 64%;
+    margin-right: 700px;
+     text-align: left;
+     width: 110px;
+   }
+ 
+   .item{
+    width: 100px;
+   margin-left: 59.3%;
    margin-right: 680px;
     text-align: left;
+    font-size: 18px;
   }
 
+.item ul{
+    margin-left: 46px;
+    height: 20px;
+    font-size: 20px;
+    width: 70px;
+}
 
+  
+.contacts h5{
+    font-size: 20px;
+}
 
 .cont2 hr{
     width: 20%;
@@ -2193,12 +2350,12 @@ li:hover{
 .linkson{
     padding: 0;
     font-size: 25px;
-    margin-left: 320px;
+    margin-left: 275px;
 
 }
 
 .social a{
-    margin: 10px;
+    margin: 15px;
 }
 
 
@@ -2394,11 +2551,7 @@ li:hover{
       margin-left: 280px;
     }
 
-    .box4 > div video{
-        padding: 3px;
-      margin-left: 290px;
-    }
-
+    
   /* .box3{
     margin-left: -300px;
     margin-right: -350px;
@@ -2424,7 +2577,7 @@ li:hover{
   } 
 
   .box5 p{
-      font-size: 17px;
+      font-size: 20px;
   }
 
   .tit{
@@ -2490,8 +2643,8 @@ li:hover{
   }
 
   .box4 button{
-      margin-left: 350px;
-     margin-right: 350px;
+      margin-left: 370px;
+     margin-right: 370px;
     
   }
 
@@ -2548,9 +2701,9 @@ li:hover{
 
 
 .nav .fa-search{
-    top: 13.2px;
+    top: 14px;
     position: absolute;
-  left: 245px;
+  left: 243px;
   font-size: 15px;
   color: green;
   padding: 5px;
@@ -2558,12 +2711,32 @@ li:hover{
 
 
 .item{
-   margin-left: 66%;
+    width: 100px;
+   margin-left: 61%;
    margin-right: 680px;
     text-align: left;
   }
 
+  .item ul{
+    margin-left: 45.5px;
+    height: 20px;
+    font-size: 20px;
+    width: 70px;
+  }
 
+  
+ 
+  
+
+
+  .below {
+    margin-left: -230px;
+}
+
+.box4 .below > video{
+    
+    width: 280px;
+}
 
 .cont2 hr{
     width: 20%;
@@ -2573,12 +2746,12 @@ li:hover{
 .linkson{
     padding: 0;
     font-size: 25px;
-    margin-left: 320px;
+    margin-left: 275px;
 
 }
 
 .social a{
-    margin: 10px;
+    margin: 15px;
 }
 
 
@@ -2645,7 +2818,7 @@ li:hover{
     .wrapper{
         grid-auto-rows: 140px;
        
-        margin-left: 285px;
+        margin-left: 295px;
         margin-right: 67px;
        }
 
@@ -2768,19 +2941,22 @@ li:hover{
   
     .news > div video{
         padding: 3px;
-      margin-left: 290px;
+      margin-left: 285px;
+      width: 280px;
     }
 
     .news > div img{
         padding: 3px;
-      margin-left: 290px;
+      margin-left: 285px;
+      width: 280px;
     }
 
-    .box4 > div video{
-        padding: 3px;
-      margin-left: 290px;
+    .news .newspic{
+        width: 280px;
     }
 
+
+    
   /* .box3{
     margin-left: -300px;
     margin-right: -350px;
@@ -2807,14 +2983,14 @@ li:hover{
   } 
 
   .box5 p{
-      font-size: 16px;
+      font-size: 18px;
   }
 
   .tit{
     font-size: 15px;
     padding: 5px;
-    margin-left: 285px;
-    margin-right: 285px;
+    margin-left: 288.5px;
+    margin-right: 288.5px;
   }
 
 
@@ -2862,6 +3038,7 @@ li:hover{
   #comp{
       margin-left: 290px;
       margin-right: 380px;
+      width: 280px;
   }
 
   
@@ -2873,8 +3050,8 @@ li:hover{
   }
 
   .box4 button{
-      margin-left: 350px;
-     margin-right: 350px;
+      margin-left: 370px;
+     margin-right: 370px;
     
   }
 
@@ -2915,7 +3092,7 @@ li:hover{
 }
 
 #nav-icon{
-    right: 125px;
+    right: 118px;
    
 }
 
@@ -2942,27 +3119,38 @@ li:hover{
 
 
 .item{
+    width: 100px;
    margin-left: 66%;
    margin-right: 680px;
     text-align: left;
+    font-size: 18px;
   }
 
+.item ul{
+    margin-left: 46px;
+    height: 20px;
+    font-size: 20px;
+    width: 70px;
+}
 
+.contacts h5{
+    font-size: 18px;
+}
 
 .cont2 hr{
-    width: 20%;
-    margin-left: 350px;
+    width: 15%;
+    margin-left: 370px;
 }
 
 .linkson{
     padding: 0;
     font-size: 25px;
-    margin-left: 320px;
+    margin-left: 290px;
 
 }
 
 .social a{
-    margin: 10px;
+    margin: 12px;
 }
 
 

