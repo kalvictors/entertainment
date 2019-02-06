@@ -375,6 +375,10 @@ input{
     font-size: 15px;
 }
 
+.down > div p{
+    padding: 15px;
+}
+
 /* .multi-level{
     margin-left: 100px;
 } */

@@ -164,6 +164,7 @@
         padding: 20px;
       margin-left: 80px;
       width: 800px;
+      height: 500px;
     }
 
     .box4 img{
@@ -280,16 +281,17 @@
 
 
 .item{
-margin-left: 35px;
+margin-left: 30.4px;
 margin-right: 300px;
 text-align: left;
-width: 150px;
+width: 180px;
 font-size: 20px;
 
 }
 
 .nav .item a{
-  font-size: 20px;
+  font-size: 18px;
+  margin-left: 5px;
 }
 
 
@@ -325,6 +327,7 @@ width: 150px;
   font-size: 50px;
   margin-left: -310px;
   top: -110px;
+  color: white;
 }
 
 .nav img{
@@ -396,6 +399,10 @@ display: none;
     font-size: 20px;
 }
 
+.down > div p{
+    padding: 15px;
+}
+
 }
 
 
@@ -457,8 +464,8 @@ display: none;
          }
 
     .box2 > div{     
-        margin-left: -95px;
-        margin-right: 150px;
+        margin-left: -90px;
+        margin-right: 145px;
        
     }
         
@@ -688,11 +695,10 @@ display: none;
   text-align: left;
   width: 150px;
   font-size: 20px;
-  
 }
 
 .nav .item a{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -728,6 +734,7 @@ display: none;
     font-size: 50px;
     margin-left: -190px;
     top: -110px;
+    color: aliceblue;
 }
 
 .nav img{
@@ -737,7 +744,7 @@ display: none;
     top: -50px;
 }
 
-.heading{
+.heading{     
    margin-left: 180px;
     margin-right: 175px;
     display: none;
@@ -1375,6 +1382,7 @@ display: none;
         padding: 3px;
       margin-left: 530px;
       width: 325px;
+      height: 300px;
     }
 
     .box4 img{
@@ -1525,8 +1533,12 @@ display: none;
 .item ul{
     margin-left: 73.5px;
     height: 20px;
-    font-size: 20px;
+    font-size: 16px;
     width: 70px;
+}
+
+.item a{
+    font-size: 16px;
 }
 
 
@@ -1891,13 +1903,13 @@ display: none;
    margin-left: 58.7%;
    margin-right: 680px;
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
   }
 
 .item ul{
     margin-left: 46px;
     height: 20px;
-    font-size: 20px;
+    font-size: 16px;
     width: 70px;
 }
 
@@ -2943,6 +2955,7 @@ li:hover{
         padding: 3px;
       margin-left: 285px;
       width: 280px;
+      height: 280px;
     }
 
     .news > div img{
@@ -3119,18 +3132,16 @@ li:hover{
 
 
 .item{
-    width: 100px;
    margin-left: 66%;
    margin-right: 680px;
     text-align: left;
-    font-size: 18px;
+    font-size: 14px;
   }
 
-.item ul{
-    margin-left: 46px;
-    height: 20px;
-    font-size: 20px;
-    width: 70px;
+
+
+.nav .item a{
+    font-size: 14px;
 }
 
 .contacts h5{

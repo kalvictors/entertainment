@@ -536,20 +536,17 @@ input{
     display: none;
 }
 
-.item label:hover{
-    background-color: red;
-
-}
 
 label:hover{
     cursor: pointer;
 }
 
-label{
+.nav label{
     width: 100%;
     display: block;
     z-index: 3;
     position: relative;
+    color: blue;
 }
 
 .nav label a{
@@ -576,19 +573,20 @@ label{
 
 .multi-level{
     color: blue;
-    line-height: 30px;
+    line-height: 50px;
 }
 
 .multi-level label{
     background-color: white;
-    bottom: 77px;
+    bottom: 78.518px;
+    width: 120px;
 }
 
 .nav ul li{
     display: block;
     color: blue;
     opacity: 5px;
-    text-align: left;
+    /* text-align: left; */
     height: 30px;
 }
 
@@ -632,15 +630,15 @@ label{
     margin-right: 850px;
     text-align: left;
     height: 30px;
-    width: 90px;
+    width: 150px;
 }
 
-.item ul{
+.item{
     margin-left: 84%;
 }
 
-.item ul{
-    font-size: 45px;
+.item label a{
+    font-size: 10px;
 }
 
 .nav ul li a{
@@ -650,8 +648,9 @@ label{
 #nav-icon{
     right: 22%;
     bottom: 75px;
-    
+    color: white;
 }
+
 
 
 .box22 h5{
@@ -809,3 +808,5 @@ label{
         #myBtn:hover {
             background-color: #555; /* Add a dark-grey background on hover */
         }
+
+      

