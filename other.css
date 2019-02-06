@@ -1,0 +1,20 @@
+@media(max-width: 768px){
+    
+body{
+    background-color: blue;
+}
+
+.box { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.movie{
+
+}
+
+.movie-image { 
+    float:left; position: absolute;
+}
+
+}

@@ -881,17 +881,22 @@
     }
 
    .wrapper{
-   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 83px;
     margin-left: 0px;
-    margin-right: 80px;
+    width:30px;
+    height:30px;
+    border:blue 1px solid;
+    zoom:1;
+    margin:0px;
+    /* outline:none; */
    }
 
    
     .wrapper img{
         height: 65px;
         width: 100%;
-      
     }
     .cont2{
         display: grid;
@@ -974,6 +979,7 @@
       margin-right: 108px;
       padding-left: 15px;
     }
+
 
     #defin{
      font-size: 20px;
@@ -1245,6 +1251,10 @@
     display: block;
     padding: 5px;
     font-size: 15px;
+}
+
+.down > div p{
+    padding: 15px;
 }
 
 

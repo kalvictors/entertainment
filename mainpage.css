@@ -1,9 +1,434 @@
+
+@media(max-width: 414px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+        font-size: 23px;
+    }
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .cont{
+        margin: 0px;
+        background-color: white;
+        display: grid;
+        grid-gap: 0.3em;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3'
+        'box4'
+        'box5'
+        'box6'
+    }
+    
+    .box1{
+        font-size: 11px;
+        margin-right: 280px;
+        grid-area: box1;
+       
+        background-color: black;
+    }
+    
+    .box2{
+        grid-area: box2;
+        height: 130px;
+ 
+    }
+       
+    .box2 > div{
+             margin-left: 3px;
+             margin-right: 0px;
+             padding-left: 0px;
+         }
+
+         .slidingimg{
+            margin: 5px; 
+            display: grid;
+            grid-template-columns: repeat(11, 1fr);
+            grid-gap: 0.5em; 
+            border: 1px solid black;
+         }
+            
+            .fornew {
+                width: 80px;
+                height: 25px;
+                text-decoration: none;
+                display: inline-block;
+                padding: 8px 16px;
+                margin-left: 270px;
+                margin-top: 10px;
+            }
+            
+            .fornew:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            
+            .previous {
+                background-color: #f1f1f1;
+                color: black;
+            }
+            
+            .next {
+                background-color: #4CAF50;
+                color: white;
+                margin-left: 20px;
+            }
+            
+            .lspages{
+                background-color: #3b5998;
+                text-decoration: none;
+                display: inline-block;
+                padding: 8px 16px;
+                margin-left: 20px;
+                height: 25px;
+            }
+            
+
+        .box2{
+           
+             height: 120px;
+         }
+
+    .box2 > div{
+     
+        margin-right: 10px;
+       
+    }
+        
+        .slidingimg > div{
+            color: blue;
+            text-align: center;
+            padding: 2px;
+            cursor: pointer;
+            display: inline;
+            margin: 2px;
+        }
+        
+        .slidingimg a{
+            color: maroon;
+        }
+        
+
+        .slidingimg > div img{
+            height: 100px;
+            width: 68px;
+        }
+    
+    
+    .box3{
+        grid-auto-rows: 100px;
+        grid-area: box3;
+        width: 556px;
+    
+    }
+
+    .wrapper img{
+        height: 195px;
+    }
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 220px ;
+        height: 470px;
+        width: 390px;
+    }
+
+    .wrapper div{
+        margin: 0px;
+    }
+
+    .geners1{
+        font-size: 12px;
+    }
+
+    .geners1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5em;
+        margin: 30px;
+        display: none;
+    }
+    
+    .geners1 > div{
+       width: 100px;
+    }
+    
+
+    #onit{
+        margin-right: 150px;
+    }
+
+    .news > div{
+        width: 393px;
+    }
+    
+    .box4{
+        grid-area: box4;
+        width: 430px;
+    }
+
+    .box4 p{
+        margin-right: 15px;
+    }
+
+    #comp{
+        margin-left: 60px;
+       margin-right: 950px;
+        height: 140px;
+    }
+
+    .box4 > div img{
+        margin-left: 50px;
+    }
+  
+    .box4 > div video{
+        margin-left: 50px;
+    }
+    
+    #yourceleb{
+       font-size: 19px;
+    }
+  
+    .box4 button{
+        margin-left: 110px;
+       margin-right: 720px;
+       font-size: 20px;
+      
+    }
+
+    .indisplay{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+        width: 400px;
+    }
+    
+    .indisplay > div{
+        margin: 10px;
+        width: 185px;
+    }
+
+    .box5 h3{
+        margin-left: 160px;
+    }
+
+    .box5 p{
+        margin-right: 400px;
+    }
+  
+
+   .heading{
+       display: none;
+   }
+
+   .topper{
+       display: none;
+   }
+
+   .tit{
+       margin-right: 155px;
+       font-size: 20px;
+       margin-left: 12px;
+   }
+
+   .nav{
+    padding: 7px;
+   margin-left: 0px;
+   display: block;
+   width: 60%;
+}
+
+.nav img{
+   margin-right: 470px;
+   width: 60px;
+}
+
+#nav-icon{
+   right: 83%;
+   font-size: 30px;
+}
+
+.multi-level{
+    margin-top: 7px;
+}
+
+
+.item{
+   margin-right: 300px;
+   margin-left: 3px;
+   text-align: left;
+ }
+ 
+ 
+ .nav ul li{
+   margin-left: -27px;
+   height: 20px;
+   font-size: 15px;
+   width: 70px;
+   top: -30px;
+ }
+ 
+ .nav input { 
+     border-radius: 5px;
+     height: 0.3px;
+     width: 190px;
+     padding-right: 20px;
+ }
+
+ .nav .form-control{
+   margin-left: 33%;
+   font-size: 11px;
+   height: 25px;
+   margin-top: 7px;
+}
+ 
+ .nav .fa-search{
+     padding: 3.5px;
+     left: 283.5px;
+     top: 15px;
+     font-size: 20px;
+ }
+
+
+.heading{
+    position: absolute;
+    display: none;
+    margin-left: 800px;
+}
+
+.heading img{
+    display: none;
+}
+
+.heading > div{
+    display: block;
+    text-align: center;
+  
+}
+
+.heading > div a{
+  padding: 5px;
+  float: left;
+  font-size: 13px;
+}
+
+
+
+.about .geners .services .countries .home{
+    display: none;
+}
+
+
+.cont2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+
+.cont2 h5{
+    margin-right: 360px;
+}
+
+.cont2 p{
+    margin-right: 360px;
+}
+
+.cont2 hr{
+    width: 20%;
+    margin-left: 130px;
+}
+
+.linkson{
+    padding: 0px;
+    font-size: 32px;
+    margin-left: 40px;
+
+}
+
+.social a{
+    margin: 15px;
+}
+
+.inmore{
+    display: inline-block;
+    padding: 8px 16px;
+    margin-left: 8px;
+    height: 26.5px;
+    padding-top: 6px;
+}
+
+.down p{
+    margin-right: 350px;
+}
+
+.pagesin{
+    display: none;
+}
+
+#divisionline{
+   display: none;
+}
+
+#extraline{
+    display: none;
+ }
+
+   
+.fornew {
+    font-size: 15px;
+    width: 90px;
+    height: 40px;
+    margin-left: 40px;
+    
+}
+
+
+.next {
+    margin-left: 8px;
+    width: 70px;
+}
+
+.lspages{
+    margin-left: 8px;
+    height: 21px;
+}
+
+
+#myBtn{
+    display: block;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.down > div p{
+    padding: 15px;
+}
+
+}
+
+
 @media(max-width: 411px){
     body{
         margin: 0px;
         padding: 0px;
         width: 100%;
         overflow-x: hidden;
+        font-size: 23px;
     }
     
     .cont{
@@ -47,7 +472,7 @@
     }
        
     .box2 > div{
-             margin-left: 5px;
+             margin-left: 3px;
              margin-right: 0px;
              padding-left: 0px;
          }
@@ -107,7 +532,6 @@
     }
         
         .slidingimg > div{
-            background-color: gray;
             color: blue;
             text-align: center;
             padding: 2px;
@@ -123,7 +547,7 @@
 
         .slidingimg > div img{
             height: 90px;
-            width: 70px;
+            width: 68px;
         }
     
     
@@ -238,8 +662,9 @@
    }
 
    .tit{
-       margin-right: 154px;
+       margin-right: 155px;
        font-size: 20px;
+       margin-left: 12px;
    }
 
    .nav{
@@ -259,19 +684,24 @@
    font-size: 30px;
 }
 
+.multi-level{
+    margin-top: 7px;
+}
+
 
 .item{
-   margin-right: 340px;
-   margin-left: 20px;
+   margin-right: 300px;
+   margin-left: 0px;
    text-align: left;
  }
  
  
  .nav ul li{
-   margin-left: 14px;
+   margin-left: -27px;
    height: 20px;
    font-size: 15px;
    width: 70px;
+   top: -30px;
  }
  
  .nav input { 
@@ -284,14 +714,15 @@
  .nav .form-control{
    margin-left: 33%;
    font-size: 11px;
-   height: 20px;
-   margin-top: 3px;
+   height: 25px;
+   margin-top: 7px;
 }
  
  .nav .fa-search{
      padding: 3.5px;
-     left: 288.5px;
-     top: 14.7px;
+     left: 283.5px;
+     top: 15px;
+     font-size: 20px;
  }
 
 
@@ -358,8 +789,8 @@
     display: inline-block;
     padding: 8px 16px;
     margin-left: 8px;
-    height: 21px;
-    padding-top: 12px;
+    height: 26.5px;
+    padding-top: 6px;
 }
 
 .down p{
@@ -405,14 +836,19 @@
     font-size: 15px;
 }
 
+.down > div p{
+    padding: 15px;
 }
 
-@media(max-width: 360px){
+}
+
+@media(max-width: 384px){
     body{
         margin: 0px;
         padding: 0px;
         width: 100%;
         overflow-x: hidden;
+        font-size: 22px;
     }
     
     .cont{
@@ -482,7 +918,741 @@
     }
         
         .slidingimg > div{
-            background-color: gray;
+            color: blue;
+            text-align: center;
+            padding: 2px;
+            cursor: pointer;
+            display: inline;
+            margin: 2px;
+        }
+        
+        .slidingimg a{
+            color: maroon;
+        }
+        
+
+        .slidingimg > div img{
+            height: 80px;
+            width: 64px;
+        }
+    
+    
+    .box3{
+        grid-auto-rows: 100px;
+        grid-area: box3;
+        width: 525px;
+    
+    }
+
+    .wrapper img{
+        height: 160px;
+    }
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 185px;
+        height: 395px;
+        width: 363px;
+    }
+
+    .geners1{
+        font-size: 12px;
+    }
+
+    .geners1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5em;
+        margin: 30px;
+        display: none;
+    }
+    
+    .geners1 > div{
+       width: 100px;
+    }
+
+    #onit{
+        margin-right: 160px;
+    }
+
+    .news > div{
+        width: 360px;
+    }
+    
+    .box4{
+        grid-area: box4;
+        width: 380px;
+    }
+
+    .box4 p{
+        margin-right: 15px;
+    }
+
+    #comp{
+        margin-left: 35px;
+       margin-right: 950px;
+        height: 140px;
+    }
+
+    .box4 > div img{
+        margin-left: 30px;
+    }
+  
+    .box4 > div video{
+        margin-left: 30px;
+    }
+    
+    #yourceleb{
+       font-size: 17px;
+    }
+  
+    .box4 button{
+        margin-left: 80px;
+       margin-right: 710px;
+      
+    }
+
+    .indisplay{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 100px, auto;
+        gap: 0px;
+        width: 350px;
+    }
+    
+    .indisplay > div{
+        margin: 10px;
+        width: 360px;
+    }
+
+    .box5 h3{
+        margin-left: 130px;
+    }
+
+    .box5 p{
+        margin-right: 150px;
+    }
+  
+
+   .heading{
+       display: none;
+   }
+
+   .topper{
+       display: none;
+   }
+
+   .tit{
+       margin-left: 11px;
+       margin-right: 150px;
+       font-size: 15px;
+       padding: 5px;
+   }
+
+
+
+.heading{
+    position: absolute;
+    display: none;
+    margin-left: 800px;
+}
+
+.heading img{
+    display: none;
+}
+
+.heading > div{
+    display: block;
+    text-align: center;
+  
+}
+
+.heading > div a{
+  padding: 5px;
+  float: left;
+  font-size: 13px;
+}
+
+
+
+.about .geners .services .countries .home{
+    display: none;
+}
+
+.nav{
+    padding: 7px;
+   margin-left: 0px;
+   display: block;
+   width: 60%;
+}
+
+.nav img{
+   margin-right: 410px;
+   width: 60px;
+}
+
+#nav-icon{
+   right: 82%;
+   font-size: 28px;
+}
+
+.multi-level{
+    margin-top: 9px;
+}
+
+
+.item{
+   margin-right: 250px;
+   margin-left: 0px;
+   text-align: left;
+ }
+
+ .item a{
+     font-size: 15px;
+ }
+ 
+ 
+ .nav ul li{
+   margin-left: 14px;
+   height: 20px;
+   font-size: 15px;
+   width: 70px;
+ }
+ 
+ .nav input { 
+     border-radius: 5px;
+     height: 0.3px;
+     width: 180px;
+     padding-right: 20px;
+ }
+
+ .nav .form-control{
+   margin-left: 29%;
+   font-size: 11px;
+   height: 25px;
+   margin-top: 7px;
+}
+ 
+ .nav .fa-search{
+     padding: 3.5px;
+     left: 252.4px;
+ }
+
+.cont2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+
+.cont2 h5{
+    margin-right: 355px;
+}
+
+.cont2 p{
+    margin-right: 355px;
+}
+
+.cont2 hr{
+    width: 17%;
+    margin-left: 120px;
+}
+
+.linkson{
+    padding: 0;
+    font-size: 25px;
+    margin-left: 45px;
+
+}
+
+.social a{
+    margin: 12px;
+}
+
+.down p{
+    margin-right: 345px;
+}
+
+.fornew {
+    font-size: 12px;
+    width: 70px;
+    height: 35px;
+    margin-left: 31px;
+    margin-top: 15px;
+}
+
+.inmore{
+    display: inline-block;
+    padding: 8px 16px;
+    margin-left: 8px;
+    height: 22px;
+    padding-top: 4.7px;
+}
+
+
+.next {
+    margin-left: 10px;
+    width: 70px;
+}
+
+.lspages{
+    margin-left: 5px;
+    height: 15px;
+}
+
+#myBtn{
+    padding: 3px;
+    font-size: 15px;
+}
+
+}
+
+
+@media(max-width: 375px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+        font-size: 22px;
+    }
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .cont{
+        margin: 0px;
+        background-color: white;
+        display: grid;
+        grid-gap: 0.3em;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3'
+        'box4'
+        'box5'
+        'box6'
+    }
+    
+    .box1{
+        font-size: 11px;
+        margin-right: 280px;
+        grid-area: box1;
+        background-color: black;
+    }
+    
+    .box2{
+        grid-area: box2;
+        
+    }
+       
+    .box2 > div{
+             margin-left: 5px;
+             margin-right: 0px;
+             padding-left: 0px;
+         }
+
+         .slidingimg{
+            margin: 5px; 
+            display: grid;
+            grid-template-columns: repeat(11, 1fr);
+            grid-gap: 0em; 
+            border: 1px solid black;
+            color: white;
+        }
+
+        .box2{
+            
+             height: 120px;
+         }
+
+    .box2 > div{
+     
+        margin-right: 0px;
+       
+    }
+        
+        .slidingimg > div{
+            color: blue;
+            text-align: center;
+            padding: 2px;
+            cursor: pointer;
+            display: inline;
+            margin: 2px;
+        }
+        
+        .slidingimg a{
+            color: maroon;
+        }
+        
+
+        .slidingimg > div img{
+            height: 100px;
+            width: 61px;
+        }
+    
+    
+    .box3{
+        grid-auto-rows: 100px;
+        grid-area: box3;
+        width: 513px;
+    
+    }
+
+    .wrapper img{
+        height: 160px;
+    }
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 185px;
+        height: 395px;
+        width: 352px;
+    }
+
+    .geners1{
+        font-size: 12px;
+    }
+
+    .geners1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5em;
+        margin: 30px;
+        display: none;
+    }
+    
+    .geners1 > div{
+       width: 100px;
+    }
+
+    #onit{
+        margin-right: 143px;
+    }
+
+    .news > div{
+        width: 352px;
+    }
+    
+    .box4{
+        grid-area: box4;
+        width: 380px;
+    }
+
+    .box4 p{
+        margin-right: 18px;
+    }
+
+    #comp{
+        margin-left: 35px;
+       margin-right: 950px;
+        height: 140px;
+    }
+
+    .box4 > div img{
+        margin-left: 33px;
+    }
+  
+    .box4 > div video{
+        margin-left: 33px;
+    }
+    
+    #yourceleb{
+       font-size: 19px;
+    }
+  
+    .box4 button{
+        margin-left: 90px;
+       margin-right: 730px;
+      
+    }
+
+    .indisplay{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 100px, auto;
+        gap: 0px;
+        width: 380px;
+    }
+    
+    .indisplay > div{
+        margin: 10px;
+        width: 352px;
+    }
+
+    .box5 h3{
+        margin-left: 130px;
+    }
+
+    .box5 p{
+        margin-right: 150px;
+    }
+  
+
+   .heading{
+       display: none;
+   }
+
+   .topper{
+       display: none;
+   }
+
+   .tit{
+       margin-left: 11px;
+       margin-right: 150px;
+       font-size: 15px;
+       padding: 5px;
+   }
+
+
+
+/* .multi-level{
+    margin-right: 100px;
+} */
+
+.heading{
+    position: absolute;
+    display: none;
+    margin-left: 800px;
+}
+
+.heading img{
+    display: none;
+}
+
+.heading > div{
+    display: block;
+    text-align: center;
+  
+}
+
+.heading > div a{
+  padding: 5px;
+  float: left;
+  font-size: 13px;
+}
+
+
+
+.about .geners .services .countries .home{
+    display: none;
+}
+
+.nav{
+    padding: 7px;
+   margin-left: 0px;
+   display: block;
+   width: 63%;
+}
+
+.nav img{
+   margin-right: 410px;
+   width: 60px;
+}
+
+#nav-icon{
+   right: 82%;
+   font-size: 28px;
+}
+
+.multi-level{
+    margin-top: 11px;
+}
+
+
+.item{
+   margin-right: 240px;
+   margin-left: 0px;
+   text-align: left;
+ }
+
+ .item a{
+     font-size: 14px;
+ }
+ 
+ 
+ .nav ul li{
+   margin-left: 14px;
+   height: 20px;
+   font-size: 15px;
+   width: 70px;
+ }
+ 
+ .nav input { 
+     border-radius: 5px;
+     height: 0.3px;
+     width: 180px;
+     padding-right: 20px;
+ }
+
+ .nav .form-control{
+   margin-left: 29%;
+   font-size: 11px;
+   height: 23px;
+   margin-top: 7px;
+}
+ 
+ .nav .fa-search{
+     padding: 3.5px;
+     left: 257.4px;
+ }
+
+.cont2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+
+.cont2 h5{
+    margin-right: 355px;
+}
+
+.cont2 p{
+    margin-right: 355px;
+}
+
+.cont2 hr{
+    width: 17%;
+    margin-left: 120px;
+}
+
+.linkson{
+    padding: 0;
+    font-size: 25px;
+    margin-left: 42px;
+
+}
+
+.social a{
+    margin: 12px;
+    font-size: 30px;
+}
+
+.down p{
+    margin-right: 335px;
+}
+
+.fornew {
+    font-size: 12px;
+    width: 70px;
+    height: 34px;
+    margin-left: 23px;
+   
+}
+
+.inmore{
+    display: inline-block;
+    padding: 8px 16px;
+    margin-left: 8px;
+    height: 23px;
+    padding-top: 5px;
+}
+
+
+.next {
+    margin-left: 8px;
+    width: 70px;
+}
+
+.lspages{
+    margin-left: 5px;
+    height: 15px;
+}
+
+#myBtn{
+    padding: 3px;
+    font-size: 15px;
+}
+
+}
+
+
+@media(max-width: 360px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+        font-size: 20px;
+    }
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .cont{
+        margin: 0px;
+        background-color: white;
+        display: grid;
+        grid-gap: 0.3em;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3'
+        'box4'
+        'box5'
+        'box6'
+    }
+    
+    .box1{
+        font-size: 11px;
+        margin-right: 280px;
+        grid-area: box1;
+        background-color: black;
+    }
+    
+    .box2{
+        grid-area: box2;
+        
+ 
+    }
+       
+    .box2 > div{
+             margin-left: 5px;
+             margin-right: 0px;
+             padding-left: 0px;
+         }
+
+         .slidingimg{
+            margin: 5px; 
+            display: grid;
+            grid-template-columns: repeat(11, 1fr);
+            grid-gap: 0.5em; 
+            border: 1px solid black;
+            color: white;
+        }
+
+        .box2{
+           
+             height: 100px;
+            
+         }
+
+    .box2 > div{
+     
+        margin-right: 10px;
+       
+    }
+        
+        .slidingimg > div{
             color: blue;
             text-align: center;
             padding: 2px;
@@ -666,11 +1836,19 @@
    font-size: 28px;
 }
 
+.multi-level{
+    margin-top: 10px;
+}
+
 
 .item{
-   margin-right: 290px;
-   margin-left: 20px;
+   margin-right: 240px;
+   margin-left: 0px;
    text-align: left;
+ }
+
+ .item a{
+     font-size: 14px;
  }
  
  
@@ -691,13 +1869,13 @@
  .nav .form-control{
    margin-left: 29%;
    font-size: 11px;
-   height: 20px;
-   margin-top: 3px;
+   height: 23px;
+   margin-top: 7px;
 }
  
  .nav .fa-search{
      padding: 3.5px;
-     left: 259.4px;
+     left: 253.4px;
  }
 
 .cont2{
@@ -737,8 +1915,8 @@
 .fornew {
     font-size: 12px;
     width: 70px;
-    height: 35px;
-    margin-left: 27px;
+    height: 34px;
+    margin-left: 23px;
    
 }
 
@@ -746,8 +1924,379 @@
     display: inline-block;
     padding: 8px 16px;
     margin-left: 8px;
-    height: 17px;
-    padding-top: 12px;
+    height: 20px;
+    padding-top: 6.5px;
+}
+
+
+.next {
+    margin-left: 8px;
+    width: 70px;
+}
+
+.lspages{
+    margin-left: 5px;
+    height: 15px;
+}
+
+#myBtn{
+    padding: 3px;
+    font-size: 15px;
+}
+
+}
+
+
+@media(max-width: 320px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow-x: hidden;
+        font-size: 18px;
+    }
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .cont{
+        margin: 0px;
+        background-color: white;
+        display: grid;
+        grid-gap: 0.3em;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3'
+        'box4'
+        'box5'
+        'box6'
+    }
+    
+    .box1{
+        font-size: 11px;
+        margin-right: 280px;
+        grid-area: box1;
+        background-color: black;
+    }
+    
+    .box2{
+        grid-area: box2;
+        
+ 
+    }
+       
+    .box2 > div{
+             margin-left: 0px;
+             margin-right: 0px;
+             padding-left: 0px;
+         }
+
+         .slidingimg{
+            margin: 5px; 
+            display: grid;
+            grid-template-columns: repeat(11, 1fr);
+            grid-gap: 0.2em; 
+            border: 1px solid black;
+            color: white;
+        }
+
+        .box2{
+           
+             height: 100px;
+            
+         }
+
+    .box2 > div{
+     
+        margin-right: 10px;
+       
+    }
+        
+        .slidingimg > div{
+            color: blue;
+            text-align: center;
+            padding: 5px;
+            cursor: pointer;
+            display: inline;
+            margin: 2px;
+        }
+        
+        .slidingimg a{
+            color: maroon;
+        }
+        
+
+        .slidingimg > div img{
+            height: 80px;
+            width: 62px;
+        }
+    
+    
+    .box3{
+        grid-auto-rows: 100px;
+        grid-area: box3;
+        width: 462px;
+    
+    }
+
+    .wrapper img{
+        height: 160px;
+    }
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 185px;
+        height: 395px;
+        width: 300px;
+    }
+
+    .geners1{
+        font-size: 12px;
+    }
+
+    .geners1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5em;
+        margin: 30px;
+        display: none;
+    }
+    
+    .geners1 > div{
+       width: 100px;
+    }
+
+    #onit{
+        margin-right: 150px;
+    }
+
+    .news > div{
+        width: 300px;
+    }
+    
+    .box4{
+        grid-area: box4;
+        width: 322px;
+    }
+
+    .box4 p{
+        margin-right: 18px;
+    }
+
+    #comp{
+        margin-left: 10px;
+       margin-right: 980px;
+        height: 140px;
+    }
+
+    .box4 > div img{
+        margin-left: 10px;
+    }
+  
+    .box4 > div video{
+        margin-left: 10px;
+    }
+    
+    #yourceleb{
+       font-size: 17px;
+    }
+  
+    .box4 button{
+        margin-left: 80px;
+       margin-right: 740px;
+      
+    }
+
+    .indisplay{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 100px, auto;
+        gap: 0px;
+        width: 330px;
+    }
+    
+    .indisplay > div{
+        margin: 10px;
+        width: 300px;
+    }
+
+    .box5 h3{
+        margin-left: 130px;
+    }
+
+    .box5 p{
+        margin-right: 120px;
+    }
+  
+
+   .heading{
+       display: none;
+   }
+
+   .topper{
+       display: none;
+   }
+
+   .tit{
+       margin-left: 11px;
+       margin-right: 150px;
+       font-size: 15px;
+       padding: 5px;
+   }
+
+
+
+/* .multi-level{
+    margin-right: 100px;
+} */
+
+.heading{
+    position: absolute;
+    display: none;
+    margin-left: 800px;
+}
+
+.heading img{
+    display: none;
+}
+
+.heading > div{
+    display: block;
+    text-align: center;
+  
+}
+
+.heading > div a{
+  padding: 5px;
+  float: left;
+  font-size: 13px;
+}
+
+
+
+.about .geners .services .countries .home{
+    display: none;
+}
+
+.nav{
+    padding: 7px;
+   margin-left: 0px;
+   display: block;
+   width: 52.5%;
+}
+
+.nav img{
+   margin-right: 410px;
+   width: 60px;
+}
+
+#nav-icon{
+   right: 82%;
+   font-size: 25px;
+}
+
+.multi-level{
+    margin-top: 13px;
+    font-size: 14px;
+}
+
+
+.item{
+   margin-right: 240px;
+   margin-left: 0px;
+   text-align: left;
+ }
+
+ .item a{
+     font-size: 12px;
+ }
+ 
+ 
+ .nav ul li{
+   margin-left: 14px;
+   height: 20px;
+   font-size: 15px;
+   width: 70px;
+ }
+ 
+ .nav input { 
+     border-radius: 5px;
+     height: 0.3px;
+     width: 150px;
+     padding-right: 20px;
+ }
+
+ .nav .form-control{
+   margin-left: 29%;
+   font-size: 11px;
+   height: 23px;
+   margin-top: 7px;
+}
+ 
+ .nav .fa-search{
+     padding: 3.5px;
+     left: 213.4px;
+ }
+
+.cont2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+
+.cont2 h5{
+    margin-right: 395px;
+}
+
+.cont2 p{
+    margin-right: 395px;
+}
+
+.cont2 hr{
+    width: 17%;
+    margin-left: 100px;
+}
+
+.linkson{
+    padding: 0;
+    font-size: 25px;
+    margin-left: 25px;
+
+}
+
+.social a{
+    margin: 12px;
+}
+
+.down p{
+    margin-right: 395px;
+}
+
+.fornew {
+    font-size: 12px;
+    width: 70px;
+    height: 34px;
+    margin-left: 12px;
+   
+}
+
+.inmore{
+    display: inline-block;
+    padding: 8px 16px;
+    margin-left: 3px;
+    height: 20px;
+    padding-top: 6.5px;
 }
 
 
